@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>당회원 워크샵 일정표</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm 10mm; }
+  * { box-sizing: border-box; }
+  :root { --navy: #1b4a76; --navy-d: #143757; --gold: #f5b700; --line: #c9d3de; --soft: #eef3f8; --muted: #64748b; }
+  body { margin: 0; font-family: "WenQuanYi Zen Hei", sans-serif; color: #1e293b; font-size: 10pt; line-height: 1.35; }
+  b, .b { -webkit-text-stroke: 0.35px currentColor; font-weight: normal; }
+  .banner { display: block; width: 100%; border-radius: 4px; }
+
+  .title-row { display: flex; align-items: flex-end; justify-content: space-between; margin: 18px 0 10px; border-bottom: 2px solid var(--navy); padding-bottom: 6px; }
+  .title-row h1 { margin: 0; font-size: 15pt; color: var(--navy); font-weight: normal; -webkit-text-stroke: 0.5px var(--navy); }
+  .title-row h1::before { content: ""; display: inline-block; width: 6px; height: 16px; background: var(--gold); margin-right: 8px; vertical-align: -2px; }
+  .title-row .info { font-size: 9pt; color: var(--muted); }
+  .title-row .info span + span::before { content: "│"; margin: 0 7px; color: var(--line); }
+
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  th { background: var(--navy); color: #fff; font-weight: normal; -webkit-text-stroke: 0.3px #fff; padding: 7px 4px; font-size: 9.4pt; border: 1px solid var(--navy); }
+  td { border: 1px solid var(--line); padding: 6.5px 7px; vertical-align: middle; }
+  td.time { text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--navy-d); }
+  td.place { text-align: center; background: #f8fafc; }
+  td.dur { text-align: center; white-space: nowrap; color: var(--muted); }
+  td.who { text-align: center; white-space: nowrap; }
+  td.note { font-size: 9.2pt; color: #334155; }
+  .sub { display: block; font-size: 8.5pt; color: var(--muted); margin-top: 1px; }
+
+  tr.part td { background: var(--soft); color: var(--navy); padding: 4px 9px; font-size: 9pt; border-left: 4px solid var(--gold); }
+  tr.break td:not(.place) { background: #fafafa; color: var(--muted); }
+  .tag { display: inline-block; font-size: 8pt; padding: 0 6px; border-radius: 8px; margin-right: 5px; line-height: 15px; vertical-align: 1px; }
+  .tag.rest { background: #e2e8f0; color: #475569; }
+  .tag.move { background: #fff4cc; color: #8a6400; }
+  .tag.qa { background: #e0ecf8; color: var(--navy); }
+
+  .review { margin-top: 12px; border: 1px solid #f0d27a; background: #fffaeb; border-radius: 4px; padding: 9px 12px; font-size: 9.2pt; }
+  .review .label { display: inline-block; background: var(--gold); color: #3b2f00; padding: 1px 8px; border-radius: 3px; margin-right: 8px; font-size: 8.6pt; }
+  .foot { margin-top: 10px; text-align: right; font-size: 8.6pt; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<img class="banner" src="banner.png" alt="경향교회 당회원 워크샵 — 일시 2026. 11. 14. 토, 장소 경향교회 제3교육실, 주제 하나님 앞에서 나를 세우다">
+
+<div class="title-row">
+  <h1>워크샵 일정</h1>
+  <div class="info"><span>2026. 11. 14.(토)</span><span>경향교회 제3교육실</span><span>06:00 ~ 17:30</span></div>
+</div>
+
+<table>
+  <colgroup>
+    <col style="width:14%"><col style="width:13%"><col style="width:8%"><col style="width:31%"><col style="width:13%"><col style="width:21%">
+  </colgroup>
+  <thead>
+    <tr><th>시간</th><th>장소</th><th>소요</th><th>내용</th><th>담당</th><th>비고</th></tr>
+  </thead>
+  <tbody>
+    <tr class="part"><td colspan="6"><b>새벽</b> · 특별 새벽기도 및 조식</td></tr>
+    <tr>
+      <td class="time">06:00 ~ 07:40</td>
+      <td class="place">트리니티 홀<span class="sub">교회식당</span></td>
+      <td class="dur">100분</td>
+      <td><b>추수감사절 맞이 특별 새벽기도</b><span class="sub">특송 : 당회원</span></td>
+      <td class="who"></td>
+      <td class="note">여전도회연합회 – 조식 제공</td>
+    </tr>
+
+    <tr class="part"><td colspan="6"><b>오전</b> · 당회원 워크샵</td></tr>
+    <tr>
+      <td class="time">07:40 ~ 08:30</td>
+      <td class="place" rowspan="3">제3교육실</td>
+      <td class="dur">50분</td>
+      <td><b>2027년 목회 방향(Ⅰ)</b></td>
+      <td class="who">담임목사님</td>
+      <td class="note"></td>
+    </tr>
+    <tr class="break">
+      <td class="time">08:30 ~ 08:40</td>
+      <td class="dur">10분</td>
+      <td><span class="tag rest">휴식</span>화장실 등</td>
+      <td class="who"></td>
+      <td class="note">다과 및 온수통 배치 (복도 앞 2곳)</td>
+    </tr>
+    <tr>
+      <td class="time">08:40 ~ 09:30</td>
+      <td class="dur">50분</td>
+      <td><b>2027년 목회 방향(Ⅱ)</b></td>
+      <td class="who">담임목사님</td>
+      <td class="note"></td>
+    </tr>
+    <tr>
+      <td class="time">09:30 ~ 10:00</td>
+      <td class="place">만나의 집</td>
+      <td class="dur">30분</td>
+      <td>티 타임 &amp; 단체 사진 촬영</td>
+      <td class="who"></td>
+      <td class="note">만나의 집(사전 주문) 및 (앞) 기념사진 촬영</td>
+    </tr>
+    <tr>
+      <td class="time">10:30 ~ 11:10</td>
+      <td class="place" rowspan="5">제3교육실</td>
+      <td class="dur">40분</td>
+      <td><b>교회행정개편위원회 보고</b></td>
+      <td class="who">문흥식 장로</td>
+      <td class="note"><span class="tag qa">발표 &amp; QnA</span></td>
+    </tr>
+    <tr>
+      <td class="time">11:10 ~ 11:40</td>
+      <td class="dur">30분</td>
+      <td><b>2027년 전교인수련회 준비 T/F 보고</b></td>
+      <td class="who">이준호 장로</td>
+      <td class="note"><span class="tag qa">발표 &amp; QnA</span></td>
+    </tr>
+    <tr class="break">
+      <td class="time">11:40 ~ 11:50</td>
+      <td class="dur">10분</td>
+      <td><span class="tag rest">휴식</span>화장실 등</td>
+      <td class="who"></td>
+      <td class="note"></td>
+    </tr>
+    <tr>
+      <td class="time">11:50 ~ 12:20</td>
+      <td class="dur">30분</td>
+      <td><b>경향관 개·보수 추진위원회 보고</b></td>
+      <td class="who">남성우 장로</td>
+      <td class="note"><span class="tag qa">발표 &amp; QnA</span></td>
+    </tr>
+    <tr>
+      <td class="time">12:20 ~ 12:40</td>
+      <td class="dur">20분</td>
+      <td><b>총평 및 기도회</b></td>
+      <td class="who">담임목사님</td>
+      <td class="note"></td>
+    </tr>
+
+    <tr class="part"><td colspan="6"><b>오후</b> · 부부 만찬 및 성찬식 준비</td></tr>
+    <tr class="break">
+      <td class="time">12:40 ~ 13:10</td>
+      <td class="place">이동</td>
+      <td class="dur">30분</td>
+      <td><span class="tag move">이동</span>개별 차량</td>
+      <td class="who"></td>
+      <td class="note"></td>
+    </tr>
+    <tr>
+      <td class="time">13:10 ~ 14:30</td>
+      <td class="place">한우만내고향축산</td>
+      <td class="dur">80분</td>
+      <td><b>부부 만찬</b></td>
+      <td class="who"></td>
+      <td class="note">기도 : 송기봉 장로</td>
+    </tr>
+    <tr>
+      <td class="time">14:30 ~ 15:20</td>
+      <td class="place"></td>
+      <td class="dur">50분</td>
+      <td>티 타임<span class="sub">부부 사전 주문</span></td>
+      <td class="who"></td>
+      <td class="note"></td>
+    </tr>
+    <tr class="break">
+      <td class="time">15:20 ~ 16:00</td>
+      <td class="place">이동</td>
+      <td class="dur">40분</td>
+      <td><span class="tag move">이동</span>개별 차량</td>
+      <td class="who"></td>
+      <td class="note"></td>
+    </tr>
+    <tr>
+      <td class="time">16:00 ~ 17:30</td>
+      <td class="place">당회실</td>
+      <td class="dur">90분</td>
+      <td><b>성찬식 준비</b></td>
+      <td class="who"></td>
+      <td class="note">배병 및 배잔팀<span class="sub">※ 석식 별도 없음(자율)</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="review">
+  <span class="label">★ 검토</span><b>아내분들</b> : 오전 10:30 ~ 11:40(70분) ‘가정 사역(가칭)’ 별도 세미나(제4교육실) 후, 11:50 경향관 개·보수 추진위원회 시간에 합류
+</div>
+
+<div class="foot">경향교회 당회</div>
+
+</body>
+</html>
