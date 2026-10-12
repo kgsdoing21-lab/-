@@ -49,24 +49,27 @@ td:last-child{border-right:0}
 .loc td:last-child{white-space:nowrap;width:110px;text-align:right}
 .sign{text-align:right;color:#6b7280;font-size:12.5px;margin-top:6px}
 
+/*SEAT*/
 .p2{page-break-before:always;break-before:page;padding-top:30px}
 .stage{margin:22px auto 16px;width:260px;text-align:center;background:#f5b700;color:#1f2937;font-weight:700;font-size:15px;letter-spacing:6px;padding:7px 0;border-radius:4px}
-.seatgrid{display:grid;grid-auto-rows:38px;gap:5px 3px;justify-content:center}
-.rown{font-size:10.5px;color:#9ca3af;display:flex;align-items:center;justify-content:flex-end;padding-right:4px}
+.seatgrid{display:grid;gap:6px 2px;justify-content:center}
+.rown{font-size:9.5px;color:#9ca3af;display:flex;align-items:center}
 .rown::after{content:"열"}
-.seat{border:1px dashed #cfd6e0;border-radius:5px;background:#fbfcfe;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:11px;line-height:1.1;letter-spacing:-.3px}
-.seat.gl{margin-left:6px}
+.seat{border:1px dashed #cfd6e0;border-radius:5px;background:#fbfcfe;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;line-height:1.1;letter-spacing:-.5px;white-space:nowrap;overflow:hidden;min-width:0}
 .seat.on{border:1px solid #1d4373;background:#eef3fa;color:#1d3f6e;font-weight:600}
 .seat.sec{background:#fff3c4;border-color:#f5b700}
+.seat.wf{background:#fff8e1;border:1px solid #f0d78c}
 .seat i{font-style:normal;font-size:8.5px;color:#7c5a00;font-weight:400;margin-top:1px}
+.band{background:#fff2cc;border:1px solid #f6df9d;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#7c5a00;letter-spacing:3px}
 .aisle{border-left:1px dashed #b9cbe4;border-right:1px dashed #b9cbe4;display:flex;align-items:center;justify-content:center;color:#8b95a5;font-size:11px;text-align:center;line-height:1.2}
 .legend{margin-top:18px;font-size:11.5px;color:#4b5563;display:flex;align-items:center;gap:6px}
 .lg{display:inline-block;width:16px;height:12px;border:1px dashed #cfd6e0;border-radius:3px;background:#fbfcfe;margin-left:10px}
 .lg:first-child{margin-left:0}
 .lg.on{border:1px solid #1d4373;background:#eef3fa}
 .lg.on.sec{background:#fff3c4;border-color:#f5b700}
+.lg.wf{background:#fff8e1;border:1px solid #f0d78c}
 .legend .cap{margin-left:auto;font-weight:600;color:#1d3f6e}
-</style></head><body><div class="page">
+/*ENDSEAT*/</style></head><body><div class="page">
 <img class="banner" src="banner.png" alt="경향교회 당회원 워크숍">
 <div class="head"><h1>워크숍 일정</h1><div class="meta">2026. 11. 14.(토)<span>|</span>경향교회 제3교육실<span>|</span>06:00 ~ 16:30</div></div>
 <table>
@@ -100,148 +103,150 @@ td:last-child{border-right:0}
 <div class="sign">경향교회 당회</div>
 </div>
 <div class="page p2">
-<div class="head"><h1>제3교육실 좌석 배치도</h1><div class="meta">2026. 11. 14.(토)<span>|</span>참석 34명</div></div>
+<div class="head"><h1>제3교육실 좌석 배치도</h1><div class="meta">2026. 11. 14.(토)<span>|</span>당회원 34명 · 아내분들 6~7열</div></div>
 <div class="stage">강 단</div>
-<div class="seatgrid" style="grid-template-columns:16px 31px 31px 31px 20px 31px 31px 31px 3px 31px 31px 31px 20px 31px 31px 31px 3px 31px 31px 31px 20px 31px 31px 31px">
-<div class="rown">1</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">김대현</div>
-<div class="aisle" style="grid-row:span 7">통<br><br>로</div>
-<div class="seat on">신철우</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div style="grid-row:span 7"></div>
-<div class="seat on">임성오</div>
-<div class="seat"></div>
-<div class="seat on">김석찬</div>
-<div class="aisle" style="grid-row:span 7">통<br><br>로</div>
-<div class="seat on">이충섭</div>
-<div class="seat"></div>
-<div class="seat on">송기봉</div>
-<div style="grid-row:span 7"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">조원형</div>
-<div class="aisle" style="grid-row:span 7">통<br><br>로</div>
-<div class="seat on">남성우</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="rown">2</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">장기송</div>
-<div class="seat on">박남홍</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">최수일</div>
-<div class="seat"></div>
-<div class="seat on">송근성</div>
-<div class="seat on">김진호</div>
-<div class="seat"></div>
-<div class="seat on">신정철</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">오세욱</div>
-<div class="seat on sec">문흥식<i>서기</i></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="rown">3</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">김관식</div>
-<div class="seat on">김성일</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">김진웅</div>
-<div class="seat"></div>
-<div class="seat on">박기출</div>
-<div class="seat on">이준호</div>
-<div class="seat"></div>
-<div class="seat on">이현돈</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">이진희</div>
-<div class="seat on">김태호</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="rown">4</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">이정수</div>
-<div class="seat on">김영준</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">서성옥</div>
-<div class="seat"></div>
-<div class="seat on">박종욱</div>
-<div class="seat on">최봉열</div>
-<div class="seat"></div>
-<div class="seat on">이현종</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">이종희</div>
-<div class="seat on">김효중</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="rown">5</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat on">조이룰</div>
-<div class="seat on">권정민</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="rown">6</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="rown">7</div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
-<div class="seat"></div>
+<div class="seatgrid" style="grid-template-columns:16px 31px 31px 31px 20px 31px 31px 31px 3px 31px 31px 31px 20px 31px 31px 31px 3px 31px 31px 31px 20px 31px 31px 31px;grid-template-rows:repeat(5,46px) 30px repeat(2,46px)">
+<div class="aisle" style="grid-column:5;grid-row:1 / span 8">통<br><br>로</div>
+<div class="aisle" style="grid-column:13;grid-row:1 / span 8">통<br><br>로</div>
+<div class="aisle" style="grid-column:21;grid-row:1 / span 8">통<br><br>로</div>
+<div class="rown" style="grid-row:1;grid-column:1">1</div>
+<div class="seat" style="grid-row:1;grid-column:2"></div>
+<div class="seat" style="grid-row:1;grid-column:3"></div>
+<div class="seat on" style="grid-row:1;grid-column:4">김대현</div>
+<div class="seat on" style="grid-row:1;grid-column:6">신철우</div>
+<div class="seat" style="grid-row:1;grid-column:7"></div>
+<div class="seat" style="grid-row:1;grid-column:8"></div>
+<div class="seat on" style="grid-row:1;grid-column:10">임성오</div>
+<div class="seat" style="grid-row:1;grid-column:11"></div>
+<div class="seat on" style="grid-row:1;grid-column:12">김석찬</div>
+<div class="seat on" style="grid-row:1;grid-column:14">이충섭</div>
+<div class="seat" style="grid-row:1;grid-column:15"></div>
+<div class="seat on" style="grid-row:1;grid-column:16">송기봉</div>
+<div class="seat" style="grid-row:1;grid-column:18"></div>
+<div class="seat" style="grid-row:1;grid-column:19"></div>
+<div class="seat on" style="grid-row:1;grid-column:20">조원형</div>
+<div class="seat on" style="grid-row:1;grid-column:22">남성우</div>
+<div class="seat" style="grid-row:1;grid-column:23"></div>
+<div class="seat" style="grid-row:1;grid-column:24"></div>
+<div class="rown" style="grid-row:2;grid-column:1">2</div>
+<div class="seat" style="grid-row:2;grid-column:2"></div>
+<div class="seat" style="grid-row:2;grid-column:3"></div>
+<div class="seat on" style="grid-row:2;grid-column:4">장기송</div>
+<div class="seat on" style="grid-row:2;grid-column:6">박남홍</div>
+<div class="seat" style="grid-row:2;grid-column:7"></div>
+<div class="seat" style="grid-row:2;grid-column:8"></div>
+<div class="seat on" style="grid-row:2;grid-column:10">최수일</div>
+<div class="seat" style="grid-row:2;grid-column:11"></div>
+<div class="seat on" style="grid-row:2;grid-column:12">송근성</div>
+<div class="seat on" style="grid-row:2;grid-column:14">김진호</div>
+<div class="seat" style="grid-row:2;grid-column:15"></div>
+<div class="seat on" style="grid-row:2;grid-column:16">신정철</div>
+<div class="seat" style="grid-row:2;grid-column:18"></div>
+<div class="seat" style="grid-row:2;grid-column:19"></div>
+<div class="seat on" style="grid-row:2;grid-column:20">오세욱</div>
+<div class="seat on sec" style="grid-row:2;grid-column:22">문흥식<i>서기</i></div>
+<div class="seat" style="grid-row:2;grid-column:23"></div>
+<div class="seat" style="grid-row:2;grid-column:24"></div>
+<div class="rown" style="grid-row:3;grid-column:1">3</div>
+<div class="seat" style="grid-row:3;grid-column:2"></div>
+<div class="seat" style="grid-row:3;grid-column:3"></div>
+<div class="seat on" style="grid-row:3;grid-column:4">김관식</div>
+<div class="seat on" style="grid-row:3;grid-column:6">김성일</div>
+<div class="seat" style="grid-row:3;grid-column:7"></div>
+<div class="seat" style="grid-row:3;grid-column:8"></div>
+<div class="seat on" style="grid-row:3;grid-column:10">김진웅</div>
+<div class="seat" style="grid-row:3;grid-column:11"></div>
+<div class="seat on" style="grid-row:3;grid-column:12">박기출</div>
+<div class="seat on" style="grid-row:3;grid-column:14">이준호</div>
+<div class="seat" style="grid-row:3;grid-column:15"></div>
+<div class="seat on" style="grid-row:3;grid-column:16">이현돈</div>
+<div class="seat" style="grid-row:3;grid-column:18"></div>
+<div class="seat" style="grid-row:3;grid-column:19"></div>
+<div class="seat on" style="grid-row:3;grid-column:20">이진희</div>
+<div class="seat on" style="grid-row:3;grid-column:22">김태호</div>
+<div class="seat" style="grid-row:3;grid-column:23"></div>
+<div class="seat" style="grid-row:3;grid-column:24"></div>
+<div class="rown" style="grid-row:4;grid-column:1">4</div>
+<div class="seat" style="grid-row:4;grid-column:2"></div>
+<div class="seat" style="grid-row:4;grid-column:3"></div>
+<div class="seat on" style="grid-row:4;grid-column:4">이정수</div>
+<div class="seat on" style="grid-row:4;grid-column:6">김영준</div>
+<div class="seat" style="grid-row:4;grid-column:7"></div>
+<div class="seat" style="grid-row:4;grid-column:8"></div>
+<div class="seat on" style="grid-row:4;grid-column:10">서성옥</div>
+<div class="seat" style="grid-row:4;grid-column:11"></div>
+<div class="seat on" style="grid-row:4;grid-column:12">박종욱</div>
+<div class="seat on" style="grid-row:4;grid-column:14">최봉열</div>
+<div class="seat" style="grid-row:4;grid-column:15"></div>
+<div class="seat on" style="grid-row:4;grid-column:16">이현종</div>
+<div class="seat" style="grid-row:4;grid-column:18"></div>
+<div class="seat" style="grid-row:4;grid-column:19"></div>
+<div class="seat on" style="grid-row:4;grid-column:20">이종희</div>
+<div class="seat on" style="grid-row:4;grid-column:22">김효중</div>
+<div class="seat" style="grid-row:4;grid-column:23"></div>
+<div class="seat" style="grid-row:4;grid-column:24"></div>
+<div class="rown" style="grid-row:5;grid-column:1">5</div>
+<div class="seat" style="grid-row:5;grid-column:2"></div>
+<div class="seat" style="grid-row:5;grid-column:3"></div>
+<div class="seat" style="grid-row:5;grid-column:4"></div>
+<div class="seat" style="grid-row:5;grid-column:6"></div>
+<div class="seat" style="grid-row:5;grid-column:7"></div>
+<div class="seat" style="grid-row:5;grid-column:8"></div>
+<div class="seat" style="grid-row:5;grid-column:10"></div>
+<div class="seat" style="grid-row:5;grid-column:11"></div>
+<div class="seat on" style="grid-row:5;grid-column:12">조이룰</div>
+<div class="seat on" style="grid-row:5;grid-column:14">권정민</div>
+<div class="seat" style="grid-row:5;grid-column:15"></div>
+<div class="seat" style="grid-row:5;grid-column:16"></div>
+<div class="seat" style="grid-row:5;grid-column:18"></div>
+<div class="seat" style="grid-row:5;grid-column:19"></div>
+<div class="seat" style="grid-row:5;grid-column:20"></div>
+<div class="seat" style="grid-row:5;grid-column:22"></div>
+<div class="seat" style="grid-row:5;grid-column:23"></div>
+<div class="seat" style="grid-row:5;grid-column:24"></div>
+<div class="rown" style="grid-row:7;grid-column:1">6</div>
+<div class="seat wf" style="grid-row:7;grid-column:2"></div>
+<div class="seat wf" style="grid-row:7;grid-column:3"></div>
+<div class="seat wf" style="grid-row:7;grid-column:4"></div>
+<div class="seat wf" style="grid-row:7;grid-column:6"></div>
+<div class="seat wf" style="grid-row:7;grid-column:7"></div>
+<div class="seat wf" style="grid-row:7;grid-column:8"></div>
+<div class="seat wf" style="grid-row:7;grid-column:10"></div>
+<div class="seat wf" style="grid-row:7;grid-column:11"></div>
+<div class="seat wf" style="grid-row:7;grid-column:12"></div>
+<div class="seat wf" style="grid-row:7;grid-column:14"></div>
+<div class="seat wf" style="grid-row:7;grid-column:15"></div>
+<div class="seat wf" style="grid-row:7;grid-column:16"></div>
+<div class="seat wf" style="grid-row:7;grid-column:18"></div>
+<div class="seat wf" style="grid-row:7;grid-column:19"></div>
+<div class="seat wf" style="grid-row:7;grid-column:20"></div>
+<div class="seat wf" style="grid-row:7;grid-column:22"></div>
+<div class="seat wf" style="grid-row:7;grid-column:23"></div>
+<div class="seat wf" style="grid-row:7;grid-column:24"></div>
+<div class="rown" style="grid-row:8;grid-column:1">7</div>
+<div class="seat wf" style="grid-row:8;grid-column:2"></div>
+<div class="seat wf" style="grid-row:8;grid-column:3"></div>
+<div class="seat wf" style="grid-row:8;grid-column:4"></div>
+<div class="seat wf" style="grid-row:8;grid-column:6"></div>
+<div class="seat wf" style="grid-row:8;grid-column:7"></div>
+<div class="seat wf" style="grid-row:8;grid-column:8"></div>
+<div class="seat wf" style="grid-row:8;grid-column:10"></div>
+<div class="seat wf" style="grid-row:8;grid-column:11"></div>
+<div class="seat wf" style="grid-row:8;grid-column:12"></div>
+<div class="seat wf" style="grid-row:8;grid-column:14"></div>
+<div class="seat wf" style="grid-row:8;grid-column:15"></div>
+<div class="seat wf" style="grid-row:8;grid-column:16"></div>
+<div class="seat wf" style="grid-row:8;grid-column:18"></div>
+<div class="seat wf" style="grid-row:8;grid-column:19"></div>
+<div class="seat wf" style="grid-row:8;grid-column:20"></div>
+<div class="seat wf" style="grid-row:8;grid-column:22"></div>
+<div class="seat wf" style="grid-row:8;grid-column:23"></div>
+<div class="seat wf" style="grid-row:8;grid-column:24"></div>
+<div class="band" style="grid-row:6;grid-column:2 / 5">아내분들</div>
+<div class="band" style="grid-row:6;grid-column:6 / 13">아내분들</div>
+<div class="band" style="grid-row:6;grid-column:14 / 21">아내분들</div>
+<div class="band" style="grid-row:6;grid-column:22 / 25">아내분들</div>
 </div>
-<div class="legend"><span class="lg on"></span>배정석 <span class="lg"></span>빈 좌석 <span class="lg on sec"></span>당회 서기<span class="cap">※ 가로 18석 × 세로 7줄 = 126석 수용</span></div>
+<div class="legend"><span class="lg on"></span>당회원 <span class="lg on sec"></span>당회 서기 <span class="lg wf"></span>아내분들 좌석 <span class="lg"></span>빈 좌석<span class="cap">※ 가로 18석 × 세로 7줄 = 126석 수용</span></div>
 <div class="sign">경향교회 당회</div>
 </div></body></html>
