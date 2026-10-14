@@ -38,6 +38,9 @@
   .item { position: relative; font-size: 12.5pt; font-weight: 700; line-height: 1.55; margin-bottom: 6.5mm; }
   .item::before { content: ""; position: absolute; left: -9.45mm; top: 1.55mm; width: 3.1mm; height: 3.1mm; border-radius: 50%; background: var(--paper); border: 1.2px solid var(--gold); }
   .item .detail { display: block; }
+  .item .slot { display: grid; grid-template-columns: 19mm 1fr; margin-top: 1.2mm; font-size: 11.5pt; }
+  .item .slot b { color: var(--gold); }
+  .item .slot em { font-style: normal; font-size: 10pt; color: var(--muted); }
   .item .detail.sub { font-size: 10.5pt; color: var(--muted); }
   .item.ref { color: var(--muted); }
   .item.ref .tag { color: var(--gold); }
@@ -66,8 +69,10 @@
     <section class="timeline">
       <div class="month">11월</div>
       <div class="item">11.1 주일 오후 2시 행정 조직(국·팀별) 당회원 배치 및<span class="detail">업무 범위 확정 등 세부 검토 (1)</span></div>
-      <div class="item">11.8 주일 오후 1:30 행정 조직(국·팀별) 당회원 배치 및<span class="detail">업무 범위 확정 등 세부 검토 (2)</span></div>
-      <div class="item">11.8 주일 오후 3시 담임목사님께 1차 최종 보고<span class="detail sub">(위원회 전원 참석)</span></div>
+      <div class="item">11.8 주일
+        <span class="slot"><b>오후 1:30</b><span>행정 조직(국·팀별) 당회원 배치 및 업무 범위 확정 등 세부 검토 (2)</span></span>
+        <span class="slot"><b>오후 3시</b><span>담임목사님께 1차 최종 보고 <em>(위원회 전원 참석)</em></span></span>
+      </div>
       <div class="item ref"><span class="tag">[참조]</span> 11.14 토 당회원 워크샵</div>
       <div class="item">11.22 주일 오후 2시 교역자 및 직원 업무 매뉴얼 검토</div>
       <div class="item key">11.29 주일 정기당회 보고</div>
