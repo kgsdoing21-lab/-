@@ -24,20 +24,21 @@
     word-break: keep-all;
   }
   .frame { height: 100%; border: 1.6px solid var(--gold); padding: 2.2mm; background: var(--paper); }
-  .inner { height: 100%; border: .8px solid var(--gold-soft); padding: 16mm 15mm 12mm; display: flex; flex-direction: column; }
+  .inner { height: 100%; border: .8px solid var(--gold-soft); padding: 12mm 15mm 9mm; display: flex; flex-direction: column; }
 
   .eyebrow { text-align: center; color: var(--gold); font-size: 10.5pt; font-weight: 700; letter-spacing: .55em; padding-left: .55em; }
-  h1 { text-align: center; font-size: 34pt; font-weight: 800; letter-spacing: .32em; padding-left: .32em; margin-top: 8mm; }
-  .period { text-align: center; color: var(--gold); font-size: 11pt; letter-spacing: .4em; padding-left: .4em; margin-top: 7mm; }
+  h1 { text-align: center; font-size: 34pt; font-weight: 800; letter-spacing: .32em; padding-left: .32em; margin-top: 6mm; }
+  .period { text-align: center; color: var(--gold); font-size: 11pt; letter-spacing: .4em; padding-left: .4em; margin-top: 5mm; }
   .diamond { text-align: center; color: var(--gold); font-size: 9pt; margin-top: 4mm; }
 
-  .timeline { position: relative; margin-top: 14mm; padding-left: 10mm; }
+  .timeline { position: relative; margin-top: 9mm; padding-left: 10mm; }
   .timeline::before { content: ""; position: absolute; left: 2.1mm; top: 3mm; bottom: 4mm; width: 1.2px; background: var(--gold-soft); }
-  .month { position: relative; font-size: 17pt; font-weight: 700; margin-bottom: 9mm; }
+  .month { position: relative; font-size: 17pt; font-weight: 700; margin-bottom: 7mm; }
   .month::before { content: ""; position: absolute; left: -10mm; top: 50%; transform: translateY(-50%); width: 4.4mm; height: 4.4mm; border-radius: 50%; background: var(--gold); }
-  .item { position: relative; font-size: 12.5pt; font-weight: 700; line-height: 1.55; margin-bottom: 10mm; }
+  .item { position: relative; font-size: 12.5pt; font-weight: 700; line-height: 1.55; margin-bottom: 6.5mm; }
   .item::before { content: ""; position: absolute; left: -9.45mm; top: 1.55mm; width: 3.1mm; height: 3.1mm; border-radius: 50%; background: var(--paper); border: 1.2px solid var(--gold); }
   .item .detail { display: block; }
+  .item .detail.sub { font-size: 10.5pt; color: var(--muted); }
   .item.ref { color: var(--muted); }
   .item.ref .tag { color: var(--gold); }
   .item.key { color: var(--blue); }
@@ -46,12 +47,12 @@
   .box { margin-top: 4mm; border: 1.2px solid var(--gold-soft); border-radius: 2.5mm; padding: 6mm 7mm 4mm; background: #fffaf0; }
   .box h2 { color: var(--gold); font-size: 13pt; font-weight: 800; margin-bottom: 4mm; }
   .box h2::before { content: "◆"; font-size: 9pt; margin-right: 2.5mm; vertical-align: 1px; }
-  .step { display: grid; grid-template-columns: 50mm 1fr; border-top: 1px dashed var(--gold-soft); padding: 4mm 1mm; }
+  .step { display: grid; grid-template-columns: 50mm 1fr; border-top: 1px dashed var(--gold-soft); padding: 3.2mm 1mm; }
   .step b { color: var(--gold); font-size: 12pt; }
   .step small { display: block; color: var(--muted); font-size: 9pt; margin-top: 1.5mm; }
   .step span { font-size: 12pt; }
 
-  .notes { margin-top: auto; text-align: center; color: var(--gold); font-size: 9.6pt; line-height: 2.1; }
+  .notes { margin-top: auto; padding-top: 4mm; text-align: center; color: var(--gold); font-size: 9.6pt; line-height: 2.1; }
   .sign { text-align: center; color: var(--gold); font-weight: 800; font-size: 11pt; letter-spacing: .5em; padding-left: .5em; margin-top: 4mm; }
 </style>
 </head>
@@ -64,7 +65,9 @@
 
     <section class="timeline">
       <div class="month">11월</div>
-      <div class="item">11.1 주일 오후 2시 행정 조직(국·팀별) 당회원 배치 및<span class="detail">업무 범위 확정 등 세부 검토</span></div>
+      <div class="item">11.1 주일 오후 2시 행정 조직(국·팀별) 당회원 배치 및<span class="detail">업무 범위 확정 등 세부 검토 (1)</span></div>
+      <div class="item">11.8 주일 오후 1:30 행정 조직(국·팀별) 당회원 배치 및<span class="detail">업무 범위 확정 등 세부 검토 (2)</span></div>
+      <div class="item">11.8 주일 오후 3시 담임목사님께 1차 최종 보고<span class="detail sub">(위원회 전원 참석)</span></div>
       <div class="item ref"><span class="tag">[참조]</span> 11.14 토 당회원 워크샵</div>
       <div class="item">11.22 주일 오후 2시 행정개편(안) 초안 – 담임목사님 보고</div>
       <div class="item key">11.29 주일 정기당회 보고</div>
