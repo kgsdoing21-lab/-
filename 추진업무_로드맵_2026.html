@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>추진 업무 로드맵</title>
+<link rel="stylesheet" href="font/nm/package/400.css">
+<link rel="stylesheet" href="font/nm/package/700.css">
+<link rel="stylesheet" href="font/nm/package/800.css">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root {
+    --paper: #fbf6ec;
+    --gold: #c1924a;
+    --gold-soft: #e3cfa6;
+    --ink: #2b2620;
+    --muted: #a08a6a;
+    --blue: #2f55b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #fff; }
+  body {
+    width: 210mm; height: 297mm; padding: 10mm;
+    font-family: "Nanum Myeongjo", serif; color: var(--ink);
+    word-break: keep-all;
+  }
+  .frame { height: 100%; border: 1.6px solid var(--gold); padding: 2.2mm; background: var(--paper); }
+  .inner { height: 100%; border: .8px solid var(--gold-soft); padding: 16mm 15mm 12mm; display: flex; flex-direction: column; }
+
+  .eyebrow { text-align: center; color: var(--gold); font-size: 10.5pt; font-weight: 700; letter-spacing: .55em; padding-left: .55em; }
+  h1 { text-align: center; font-size: 34pt; font-weight: 800; letter-spacing: .32em; padding-left: .32em; margin-top: 8mm; }
+  .period { text-align: center; color: var(--gold); font-size: 11pt; letter-spacing: .4em; padding-left: .4em; margin-top: 7mm; }
+  .diamond { text-align: center; color: var(--gold); font-size: 9pt; margin-top: 4mm; }
+
+  .timeline { position: relative; margin-top: 14mm; padding-left: 10mm; }
+  .timeline::before { content: ""; position: absolute; left: 2.1mm; top: 3mm; bottom: 4mm; width: 1.2px; background: var(--gold-soft); }
+  .month { position: relative; font-size: 17pt; font-weight: 700; margin-bottom: 9mm; }
+  .month::before { content: ""; position: absolute; left: -10mm; top: 50%; transform: translateY(-50%); width: 4.4mm; height: 4.4mm; border-radius: 50%; background: var(--gold); }
+  .item { position: relative; font-size: 12.5pt; font-weight: 700; line-height: 1.55; margin-bottom: 10mm; }
+  .item::before { content: ""; position: absolute; left: -9.45mm; top: 1.55mm; width: 3.1mm; height: 3.1mm; border-radius: 50%; background: var(--paper); border: 1.2px solid var(--gold); }
+  .item .detail { display: block; }
+  .item.ref { color: var(--muted); }
+  .item.ref .tag { color: var(--gold); }
+  .item.key { color: var(--blue); }
+  .item.key::before { background: var(--blue); border-color: var(--blue); width: 4.2mm; height: 4.2mm; left: -10mm; top: 1.2mm; }
+
+  .box { margin-top: 4mm; border: 1.2px solid var(--gold-soft); border-radius: 2.5mm; padding: 6mm 7mm 4mm; background: #fffaf0; }
+  .box h2 { color: var(--gold); font-size: 13pt; font-weight: 800; margin-bottom: 4mm; }
+  .box h2::before { content: "◆"; font-size: 9pt; margin-right: 2.5mm; vertical-align: 1px; }
+  .step { display: grid; grid-template-columns: 50mm 1fr; border-top: 1px dashed var(--gold-soft); padding: 4mm 1mm; }
+  .step b { color: var(--gold); font-size: 12pt; }
+  .step small { display: block; color: var(--muted); font-size: 9pt; margin-top: 1.5mm; }
+  .step span { font-size: 12pt; }
+
+  .notes { margin-top: auto; text-align: center; color: var(--gold); font-size: 9.6pt; line-height: 2.1; }
+  .sign { text-align: center; color: var(--gold); font-weight: 800; font-size: 11pt; letter-spacing: .5em; padding-left: .5em; margin-top: 4mm; }
+</style>
+</head>
+<body>
+  <div class="frame"><div class="inner">
+    <div class="eyebrow">교회 행정 개편위원회</div>
+    <h1>추진 업무 로드맵</h1>
+    <div class="period">2026. 10 ~ 11</div>
+    <div class="diamond">◆</div>
+
+    <section class="timeline">
+      <div class="month">11월</div>
+      <div class="item">11.1 주일 오후 2시 행정 조직(국·팀별) 당회원 배치 및<span class="detail">업무 범위 확정 등 세부 검토</span></div>
+      <div class="item ref"><span class="tag">[참조]</span> 11.14 토 당회원 워크샵</div>
+      <div class="item">11.22 주일 오후 2시 행정개편(안) 초안 – 담임목사님 보고</div>
+      <div class="item key">11.29 주일 정기당회 보고</div>
+    </section>
+
+    <section class="box">
+      <h2>직원 업무 매뉴얼 작업</h2>
+      <div class="step"><div><b>1단계</b><small>1차 작성</small></div><span>10. 12.(월) ~ 10. 30.(금)</span></div>
+      <div class="step"><div><b>2단계</b><small>보완 및 최종본 작성</small></div><span>11. 3.(화) ~ 11. 22.(주일)</span></div>
+    </section>
+
+    <div class="notes">
+      정기당회 등 월 1~2회 진도 활동보고는 당회원들에게 공유 (단톡방 포함)<br>
+      당회원들의 의견도 청취 및 수집 예정
+    </div>
+    <div class="sign">◆ 교회 행정 개편위원회</div>
+  </div></div>
+</body>
+</html>
