@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>교회 건축 벤치마킹 답사 계획서</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 14mm 13mm 14mm 13mm; }
+  :root {
+    --ink: #222;
+    --muted: #666;
+    --navy: #3a2f5b;
+    --line: #d9d6e3;
+    --tint: #efedf8;
+    --note-bg: #f9eeee;
+    --note-line: #e7d3d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font-family: "Noto Serif KR", serif;
+    font-size: 9.6pt;
+    line-height: 1.55;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h1 { font-size: 24pt; color: var(--navy); margin: 0 0 8px; font-weight: 700; letter-spacing: -0.5px; }
+  .meta { color: var(--muted); font-size: 9pt; padding-bottom: 10px; border-bottom: 2px solid var(--navy); margin-bottom: 10px; }
+  .meta b { color: var(--ink); }
+  .meta .sep { margin: 0 6px; color: #aaa; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 9px; margin-bottom: 14px; }
+  .stat { background: var(--tint); border: 1px solid var(--line); padding: 8px 10px; }
+  .stat .k { font-size: 8.5pt; color: var(--muted); }
+  .stat .v { font-size: 14pt; font-weight: 700; color: var(--navy); line-height: 1.4; }
+  .stat .d { font-size: 8.3pt; color: var(--muted); line-height: 1.4; }
+  h2 { font-size: 13pt; font-weight: 700; margin: 16px 0 6px; padding-left: 10px; border-left: 5px solid var(--navy); break-after: avoid; }
+  h2 small { font-size: 8.5pt; font-weight: 400; color: var(--muted); margin-left: 8px; }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0 6px; }
+  th { background: var(--navy); color: #fff; font-weight: 400; text-align: left; padding: 4px 8px; font-size: 9pt; }
+  td:first-child { white-space: nowrap; }
+  td { padding: 4px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr { break-inside: avoid; }
+  td.k { font-weight: 700; white-space: nowrap; }
+  .nw td:nth-child(3), .ph td:nth-child(3), .ph td:nth-child(4), .ph td:nth-child(2) { white-space: nowrap; }
+  td.grp { background: var(--tint); font-weight: 700; }
+  td.grp span { display: block; font-weight: 400; font-size: 8.5pt; color: var(--muted); }
+  .team { color: var(--navy); font-weight: 700; }
+  .sub { font-size: 8.5pt; color: var(--muted); }
+  .contact { display: block; font-size: 8.5pt; color: var(--muted); }
+  .new { color: #8a2a3a; font-weight: 700; }
+  .note { font-size: 8.5pt; color: var(--muted); margin: 4px 0 10px; }
+  .box { background: var(--note-bg); border: 1px solid var(--note-line); padding: 10px 18px; margin: 10px 0 12px; break-inside: avoid; }
+  .box .t { font-weight: 700; color: var(--navy); margin-bottom: 2px; }
+  .box ul, .box ol { margin: 2px 0 0; padding-left: 22px; }
+  .cb { text-align: center; width: 40px; }
+  .page-break { break-before: page; }
+  .total { text-align: right; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  .targets { display: grid; grid-template-columns: 80px repeat(7, 1fr); border-top: 2px solid var(--navy); border-bottom: 1px solid var(--line); margin-top: 18px; }
+  .targets div { padding: 6px 4px; font-size: 9pt; text-align: center; }
+  .targets div:first-child { text-align: left; font-weight: 700; }
+  .footer { display: flex; justify-content: space-between; font-size: 8pt; color: var(--muted); border-top: 1px solid var(--line); margin-top: 14px; padding-top: 6px; }
+  tr.dropped td { color: #999; }
+</style>
+</head>
+<body>
+
+<h1>교회 건축 벤치마킹 답사 계획서</h1>
+<div class="meta">
+  주관 <b>경향교회 경향관 리모델링 위원회</b><span class="sep">|</span>
+  주제 <b>교육관 · 청소년 시설 특화 사례</b><span class="sep">|</span>
+  기간 <b>2026년 10~11월 (토요일 2회)</b><span class="sep">|</span>
+  작성일 <b>2026.09.16</b> · 수정 <b>2026.10.26</b>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="k">답사 대상</div><div class="v">7개 교회</div><div class="d">교육관·청소년 시설 신축 또는 증축·리모델링 사례</div></div>
+  <div class="stat"><div class="k">편성</div><div class="v">2개 팀</div><div class="d">A팀장 조이룰 장로 · 10.31.(토)<br>B팀장 권정민 장로 · 11.7.(토)</div></div>
+  <div class="stat"><div class="k">이동</div><div class="v">교회 승합차</div><div class="d">부교역자 차량 병행 · 팀별 15명<br>(남자 교역자 포함)<br>순환 동선 · 운전 약 3~4시간</div></div>
+  <div class="stat"><div class="k">산출물</div><div class="v">교회별 답사보고서</div><div class="d">11.12.(목) 전 팀 제출<br>11.14.(토) 당회원 워크숍 보고</div></div>
+</div>
+
+<h2>Ⅰ. 답사 개요</h2>
+<table>
+  <tr><th style="width:140px">항목</th><th>내용</th></tr>
+  <tr><td class="k">목적</td><td>교육관 및 청소년 시설을 최근 신축·증축·리모델링한 교회를 직접 확인하여, 경향교회 시설 개편의 <b>설계 방향·예산 규모·운영 방식</b>에 대한 판단 근거를 확보한다</td></tr>
+  <tr><td class="k">답사 대상</td><td>수도권 소재 중·대형 교회 7개소 (A팀 3곳 · B팀 4곳). 선정 기준은 ① 최근 건축·리모델링 실적 ② 교육관 또는 청소년 공간 특화 ③ 경향교회에서 당일 왕복 가능 거리. 대상 교회 목록은 문서 하단 참조</td></tr>
+  <tr><td class="k">기간</td><td>토요일 2회 — <b>10.31.(토) A팀 / 11.7.(토) B팀</b></td></tr>
+  <tr><td class="k">편성</td><td><span class="team">A팀장 조이룰 장로</span> (10.31.) · 이준호, 김관식 장로(부총무) 협력<br><span class="team">B팀장 권정민 장로</span> (11.7.) · 나근중 장로(총무) 협력</td></tr>
+  <tr><td class="k">이동</td><td><b>교회 승합차 + 부교역자 차량.</b> 팀원과 남자 교역자가 나눠 탑승한다</td></tr>
+  <tr><td class="k">참여 인원</td><td><b>팀별 15명</b> (팀원 + <b>남자 교역자</b>). 교역자는 두 팀 중 한 팀에 나눠 배정하거나, 일정이 되면 두 번 모두 참여한다</td></tr>
+  <tr><td class="k">보고</td><td>교회별 답사보고서를 위원회에 제출(A팀 11.7., B팀 11.12.). <b>11.14.(토) 당회원 워크숍</b>에서 위원장이 종합하여 보고</td></tr>
+</table>
+
+<h2>Ⅱ. 팀 편성 및 동선</h2>
+<p style="margin:0 0 4px"><b>권역으로 나눠 팀마다 한 바퀴 도는 순환 동선으로 짰다.</b> A팀은 인천·서울 3곳(운전 약 3시간 5분), B팀은 경기 남부 4곳(운전 약 4시간 10분)이다.</p>
+<table>
+  <tr><th style="width:60px">팀</th><th style="width:150px">팀장 · 답사일</th><th style="width:110px">권역</th><th>동선 (구간별 운전 시간)</th><th style="width:95px">운전 합계</th></tr>
+  <tr>
+    <td class="team">A팀</td>
+    <td><b>조이룰 장로</b><br>10.31.(토)<br><span class="sub">협력 이준호, 김관식 장로(부총무)</span></td>
+    <td>인천 · 서울</td>
+    <td>경향교회 → <b>산곡</b> (40분) → <b>새문안</b> (60분) → 중식 (30분) → <b>소망</b> (10분) → 경향교회 (45분)</td>
+    <td>약 3시간 5분</td>
+  </tr>
+  <tr>
+    <td class="team">B팀</td>
+    <td><b>권정민 장로</b><br>11.7.(토)<br><span class="sub">협력 나근중 장로(총무)</span></td>
+    <td>경기 남부</td>
+    <td>경향교회 → <b>남양</b> (77분) → <b>수원명성</b> (40분) → <b>용인제일</b> (45분) → <b>과천</b> (50분) → 경향교회 (36분)</td>
+    <td>약 4시간 10분</td>
+  </tr>
+</table>
+<p class="note">A팀 구간 시간은 10.26. 확정 일정 기준이며, 소망교회 → 경향교회 귀환(45분)은 기존 계획서의 추정치입니다. B팀은 경향교회 ↔ 교회 구간은 기존 계획서의 편도 추정치, 교회 사이 구간은 지도상 거리로 잡은 개략 추정치입니다. 토요일 교통 상황에 따라 달라지므로 답사 전 내비게이션으로 다시 확인하십시오.</p>
+
+<div class="box">
+  <div class="t">■ 동선을 이렇게 짠 이유</div>
+  <ul>
+    <li><b>두 권역은 서로 반대 방향이다.</b> 서울 도심·인천과 경기 남부(수원·화성·용인·과천)를 섞으면 하루에 서울을 두 번 가로지르게 된다.</li>
+    <li><b>B팀은 가장 먼 남양교회부터 간다.</b> 남양 → 수원 → 용인 → 과천 순으로 돌면 오후로 갈수록 경향교회에 가까워져, 귀환길이 짧고 오후 지연에도 일정이 무너지지 않는다.</li>
+    <li><b>A팀은 서쪽 인천에서 시작해 동쪽으로 간다.</b> 인천 → 종로 → 강남 순으로 한 방향으로 이동해 되돌아가는 구간이 없다.</li>
+    <li><b>근거리 A팀이 먼저 간다.</b> 1차(10.31.)에서 체크리스트를 써 보고 보완한 뒤, 이동 부담이 큰 B팀(11.7.)에 넘긴다.</li>
+  </ul>
+</div>
+
+<h2 class="page-break">Ⅲ. 팀별 당일 일정 <small>A팀 교회별 60~80분 · 중식 80분 / B팀 교회당 75분 · 중식 60분</small></h2>
+<table class="nw">
+  <tr><th style="width:105px">A팀 · 10.31.(토)</th><th>일정</th><th style="width:105px">B팀 · 11.7.(토)</th><th style="width:170px">일정</th></tr>
+  <tr><td>08:00 ~ 08:40</td><td>경향교회 출발 <span class="sub">(16km · 40분)</span></td><td>07:30</td><td>경향교회 출발</td></tr>
+  <tr><td>08:40 ~ 09:40</td><td><b>① 산곡교회</b><span class="contact">담당 유양기 장로 010-8737-0191 · 교회 032-518-9191</span></td><td>08:50 ~ 10:05</td><td><b>남양교회</b></td></tr>
+  <tr><td>09:40 ~ 10:40</td><td>이동 <span class="sub">(28km · 1시간)</span></td><td>10:05 ~ 10:45</td><td>이동</td></tr>
+  <tr><td>10:40 ~ 12:00</td><td><b>② 새문안교회</b><span class="contact">당일 담당 김행형 장로(당회 서기) · 담당자 조상호 처장 · 교회 02-732-1009</span></td><td>10:45 ~ 12:00</td><td><b>수원명성교회</b></td></tr>
+  <tr><td>12:00 ~ 12:30</td><td>이동 <span class="sub">(10km · 30분)</span></td><td>12:00 ~ 13:00</td><td>중식 · 오전 정리 (수원 인근)</td></tr>
+  <tr><td>12:30 ~ 13:50</td><td>점심식사 · 오전 정리</td><td>13:00 ~ 13:45</td><td>이동</td></tr>
+  <tr><td>13:50 ~ 14:00</td><td>이동</td><td>13:45 ~ 15:00</td><td><b>용인제일교회</b></td></tr>
+  <tr><td>14:00 ~ 15:00</td><td><b>③ 소망교회</b><span class="contact">당일 담당 지대형 장로 · 교회 02-512-9191<br>cf. 소망풍경 (본당 주차장 앞 경비실 옆 건물에 있는 카페)</span></td><td>15:00 ~ 15:50</td><td>이동</td></tr>
+  <tr><td>약 15:45</td><td>경향교회 귀환 <span class="sub">(추정)</span></td><td>15:50 ~ 17:05</td><td><b>과천교회</b></td></tr>
+  <tr><td></td><td></td><td>약 17:45</td><td>경향교회 귀환</td></tr>
+</table>
+<p class="note">각 교회와 약속할 때 위 도착 시각을 그대로 전달하고, 앞 교회에서 늦어지면 다음 교회 담당자에게 바로 연락합니다.</p>
+
+<table>
+  <tr><th style="width:95px">교회 1곳 75분</th><th style="width:150px">내용</th><th>비고</th></tr>
+  <tr><td>0 ~ 5분</td><td>도착 · 담당자 인사</td><td>준비물: 공문 사본, 체크리스트, 카메라, 줄자, 명함</td></tr>
+  <tr><td>5 ~ 35분</td><td><b>시설 안내 · 실측</b></td><td>담당자 동행 관람. 체크리스트 A~D 항목을 <b>현장에서 즉시 기재</b>. 인원이 많으므로 기록·촬영·실측 담당을 미리 정해 두고, 나머지는 담당자 동선을 막지 않게 뒤따른다</td></tr>
+  <tr><td>35 ~ 75분</td><td><b>담당 교역자 인터뷰</b></td><td><b>이 답사의 핵심.</b> F 항목부터 묻고 E 항목은 시간이 남으면 묻는다. 녹음 사전 동의 필수</td></tr>
+  <tr><td>이동 중</td><td>차량 안 정리</td><td>다음 교회로 가는 동안 방금 본 교회의 인상·소견을 메모</td></tr>
+</table>
+<p class="note">A팀은 교회별 시간이 다르므로(산곡·소망 60분, 새문안 80분) 같은 비율로 나누되, 줄어드는 시간은 시설 관람에서 줄이고 인터뷰 시간은 최대한 지킨다.</p>
+
+<h2>Ⅳ. 공통 확인 항목 체크리스트 <small>전 팀 동일 서식 사용 · 현장 기재용</small></h2>
+<table>
+  <tr><th style="width:85px">구분</th><th>확인 항목</th><th class="cb">확인</th><th style="width:150px">기재 내용</th></tr>
+  <tr><td class="grp" rowspan="5">A<span>공간 구성</span></td><td>교육관 연면적 · 층수 · 실 구성</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>부서별 전용실 유무와 면적 (영유아/유년/초등/청소년/청년)</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>본당과 교육관의 분리 또는 연결 방식</td><td class="cb">☐</td><td></td></tr>
+  <tr><td><b>청소년 전용 공간</b> (라운지·카페·스터디룸·밴드실·체육공간)</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>교사실 · 준비실 · 교구 수납 공간</td><td class="cb">☐</td><td></td></tr>
+  <tr><td class="grp" rowspan="4">B<span>동선 · 안전</span></td><td>주일 피크 시 부서별 동선 분리 방식</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>자모실 · 수유실 · 유아 화장실 위치</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>비상구 · 대피 동선 · 안전 설비</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>엘리베이터 · 계단 수용력 (예배 교체 시간 기준)</td><td class="cb">☐</td><td></td></tr>
+  <tr><td class="grp" rowspan="4">C<span>설비</span></td><td>부서별 음향 · 영상 · 조명 사양</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>냉난방 구역 분리 및 개별 제어 가능 여부</td><td class="cb">☐</td><td></td></tr>
+  <tr><td><b>방음</b> — 부서 간 소리 간섭 정도</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>화장실 수량 · 위치 · 부서별 접근성</td><td class="cb">☐</td><td></td></tr>
+  <tr><td class="grp" rowspan="4">D<span>운영</span></td><td><b>주중 활용도</b> — 비는 시간을 어떻게 쓰는가</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>지역사회 개방 여부와 방식</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>관리 인력 · 청소 · 보안 운영</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>월 유지관리비 (관리비 · 냉난방비 수준)</td><td class="cb">☐</td><td></td></tr>
+  <tr><td class="grp" rowspan="5">E<span>건축 과정<br>(인터뷰)</span></td><td>총 사업비 및 평당 공사비</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>설계사무소 · 시공사 · 선정 경위</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>공사 기간 및 <b>공사 중 예배 공간 운영 방법</b></td><td class="cb">☐</td><td></td></tr>
+  <tr><td>재정 조달 구조 (건축헌금 대 대출 비율)</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>인허가 과정의 애로사항</td><td class="cb">☐</td><td></td></tr>
+  <tr><td class="grp" rowspan="3">F<span>회고<br>(최우선)</span></td><td><b>"다시 짓는다면 바꾸고 싶은 점은 무엇입니까"</b></td><td class="cb">☐</td><td></td></tr>
+  <tr><td>예상하지 못했던 문제</td><td class="cb">☐</td><td></td></tr>
+  <tr><td>가장 만족하는 결정 한 가지</td><td class="cb">☐</td><td></td></tr>
+</table>
+
+<div class="box">
+  <div class="t">■ F 항목을 반드시 받아 오십시오</div>
+  시설 사진과 면적은 홈페이지와 언론 보도로도 얻을 수 있습니다. <b>직접 가야만 얻을 수 있는 것은 "지어 보니 이게 잘못됐더라"는 이야기</b>입니다. 이 한 마디가 경향교회의 설계 실수 하나를 막아 줍니다. 시간이 부족하면 A~D를 줄이더라도 <b>F는 끝까지 물으십시오.</b>
+</div>
+
+<h2>Ⅴ. 지정 촬영 목록 <small>교회별 20매 이상 · 사전 동의 필수</small></h2>
+<table>
+  <tr><th style="width:140px">구분</th><th>촬영 대상</th></tr>
+  <tr><td class="k">외부</td><td>건물 전경, 교육관 출입구, 주차 동선, 옥외 활동 공간</td></tr>
+  <tr><td class="k">공용부</td><td>로비, 카페·라운지, 계단·엘리베이터, 복도 폭, 안내 사인 체계</td></tr>
+  <tr><td class="k">부서실</td><td>부서별 예배실 내부(전면·후면 각 1매), 교사실, 교구 수납</td></tr>
+  <tr><td class="k">청소년</td><td><b>청소년 전용 공간 전체.</b> 가구 배치, 조명, 벽면 마감, 청소년이 실제 머무는 자리</td></tr>
+  <tr><td class="k">설비</td><td>음향·영상 콘솔, 냉난방 제어반, 화장실, 자모실</td></tr>
+  <tr><td class="k">참고</td><td>배치도·평면도 게시물, 건축 연혁 게시물, 안내 책자</td></tr>
+</table>
+
+<h2>Ⅵ. 답사보고서 서식 <small>교회별 A4 4~6매 · A팀 11.7. · B팀 11.12.(목) 제출</small></h2>
+<table>
+  <tr><th style="width:40px">항</th><th style="width:170px">제목</th><th>기재 내용</th></tr>
+  <tr><td>1</td><td>답사 개요</td><td>일시, 대상 교회, 참석자 명단, 응대 담당자 직분·성명</td></tr>
+  <tr><td>2</td><td>교회 개황</td><td>교단, 설립연도, 출석 교인 규모, 교육부서 인원, 건축 연혁</td></tr>
+  <tr><td>3</td><td>시설 현황</td><td>교육관 층별 구성, 실별 면적, 배치도(입수 시 첨부)</td></tr>
+  <tr><td>4</td><td>체크리스트 결과표</td><td>Ⅳ항 서식을 채워 그대로 첨부</td></tr>
+  <tr><td>5</td><td>인터뷰 요지</td><td>질의응답을 <b>문답 형식 그대로</b> 정리. 요약하지 말 것 — 뉘앙스가 판단 근거가 된다</td></tr>
+  <tr><td>6</td><td><b>경향교회 적용 제언</b></td><td><b>보고서의 핵심.</b> ① 바로 적용할 만한 것 3가지 ② 적용이 어려운 것 2가지와 그 이유 ③ 팀원 전체의 일치된 소견 1문장. <b>"좋았다"로 끝내지 말고 우리 여건에 대입해 쓸 것</b></td></tr>
+  <tr><td>7</td><td>사진 자료</td><td>지정 촬영 목록에 따라 20매 이상, 각 사진에 한 줄 설명</td></tr>
+</table>
+
+<h2>Ⅶ. 토요일 답사의 한계와 보완</h2>
+<div class="box">
+  <div class="t">■ 토요일에는 교육관이 비어 있다</div>
+  교역자는 주일에 본교회 사역이 있어 주일 답사가 불가능하므로 <b>토요일이 사실상 유일한 선택</b>입니다. 그러나 토요일에는 교육관이 대체로 비어 있어 <b>공간이 실제로 어떻게 쓰이는지를 눈으로 볼 수 없습니다.</b> 빈 공간은 언제나 넓고 깔끔해 보이며, 이것이 답사의 가장 흔한 착시입니다. 다음 세 가지로 보완합니다.
+  <ol>
+    <li><b>담당 교역자 인터뷰를 시설 관람보다 길게 잡는다.</b> 실사용 정보는 사람에게서만 나온다. 본 계획에서 교회당 75분 중 40분을 인터뷰에 배정한 이유다.</li>
+    <li><b>주일 사용 사진·영상 자료를 사전에 요청한다.</b> 공문 발송 시 "주일 교육부서 예배 장면 사진을 볼 수 있는지"를 함께 요청해 둔다.</li>
+    <li><b>정원 대비 실제 착석 인원을 숫자로 묻는다.</b> "이 방은 몇 명 정원이고 주일에 실제로 몇 명이 앉습니까" — 이 질문 하나로 과설계·과소설계가 드러난다.</li>
+  </ol>
+</div>
+
+<h2>Ⅷ. 사전 협조 절차</h2>
+<table>
+  <tr><th style="width:110px">시기</th><th style="width:160px">조치</th><th>내용</th></tr>
+  <tr><td class="k">즉시<br><span class="sub" style="font-weight:400">A팀 D-2주</span></td><td>대상 교회 연락처 확보</td><td>각 팀이 담당 교회 홈페이지·교단 총회를 통해 <b>행정 담당 또는 교육부서 교역자</b>를 확인. 대표번호만으로는 연결이 안 되는 경우가 많다</td></tr>
+  <tr><td class="k">즉시</td><td>공문 발송</td><td>위원회 명의 방문 협조 요청 공문. 답사 목적·일시·<b>방문 인원(교역자 포함)</b>·요청 사항(시설 안내, 인터뷰, 촬영 동의, 주일 사진 자료)을 명기. <b>승합차·교역자 차량 주차 가능 여부</b>도 함께 확인</td></tr>
+  <tr><td class="k">D-1주</td><td>담당자 통화 확정</td><td>일시·응대자·소요시간 확정. <b>이때 확정되지 않으면 팀장이 즉시 위원회에 보고</b>하고 일정을 조정한다</td></tr>
+  <tr><td class="k">D-1주</td><td>팀별 사전 모임</td><td>체크리스트 숙지, 역할 분담(기록 · 촬영 · 질문 · 실측), 경로 확인</td></tr>
+  <tr><td class="k">D-1일</td><td>최종 확인 연락</td><td>담당자에게 방문 재확인. 준비물 점검</td></tr>
+</table>
+<p class="note">A팀(10.31.)은 산곡·새문안·소망교회 담당자가 확정되었습니다(Ⅲ항 · 부록 참조). D-1일에 각 담당자에게 도착 시각을 다시 확인합니다. B팀(11.7.)도 같은 방식으로 담당자를 확정합니다.</p>
+
+<h2>Ⅸ. 차량 운행 및 비용</h2>
+<table>
+  <tr><th style="width:110px">항목</th><th style="width:160px">기준</th><th>내용</th></tr>
+  <tr><td class="k">차량</td><td>교회 승합차 · 부교역자 차량</td><td>교회 승합차와 부교역자 차량으로 이동한다(대절 없음). 운전자와 차량별 탑승 인원을 미리 정하고, <b>보험의 운전자 범위와 탑승자 보장</b>을 확인할 것</td></tr>
+  <tr><td class="k">유류비</td><td>실비 정산</td><td>팀별 순환 거리 기준. A팀 약 80km · 3~4만원, B팀 약 170km · 5~8만원 (1대당)</td></tr>
+  <tr><td class="k">통행료</td><td>실비 정산</td><td>B팀(수원·화성·용인)은 고속도로 이용이 예상된다</td></tr>
+  <tr><td class="k">중식비</td><td>1인 15,000원</td><td>팀당 1회. 15명 × 15,000원 = 225,000원</td></tr>
+  <tr><td class="k">감사 표시</td><td>교회당 5만원 내외</td><td>응대 담당자에게 전할 간단한 다과. 고액 선물은 하지 않는다</td></tr>
+</table>
+<div class="total">팀당 예상 비용 <b>약 45만 ~ 55만원</b> | 2개 팀 합계 <b>약 95만 ~ 100만원</b> (팀당 15명 · 차량 1대 기준)</div>
+<p class="note">정산은 답사 후 영수증 첨부하여 보고서와 함께 제출한다. 유류비는 실제 주유 영수증 대신 주행거리 기준 정산이 간명하다.</p>
+
+<h2>Ⅹ. 답사 시 유의사항</h2>
+<div class="box">
+  <ul>
+    <li><b>촬영은 반드시 사전 동의를 받는다.</b> 교육관은 아동·청소년 공간이다. 사람이 나오는 사진은 찍지 않는 것을 원칙으로 한다.</li>
+    <li><b>사업비·도면 자료는 민감하다.</b> 요청은 하되 거절하면 즉시 물러선다. 무리하게 요구하면 이후 교류가 끊긴다.</li>
+    <li><b>비교하거나 평가하는 말을 현장에서 하지 않는다.</b> "우리 교회는 이런데요" 같은 말은 상대를 불편하게 한다. 평가는 보고서에 쓴다.</li>
+    <li><b>응대해 준 담당자에게 답사 후 감사 서신을 보낸다.</b> 이후 추가 문의를 해야 할 일이 반드시 생긴다.</li>
+    <li><b>팀장은 당일 귀환 즉시 위원회 단톡방에 도착 보고를 남긴다.</b></li>
+    <li><b>일정 변경·취소가 생기면 임의로 조정하지 말고 위원회와 협의한다.</b> 대상 교회가 겹치거나 빠지면 비교가 어려워진다.</li>
+  </ul>
+</div>
+
+<h2>ⅩⅠ. 추진 일정</h2>
+<table>
+  <tr><th style="width:110px">시기</th><th style="width:160px">과업</th><th>내용</th></tr>
+  <tr><td class="k">10 중순</td><td>팀 편성 확정</td><td>A팀장 조이룰 장로 · B팀장 권정민 장로. 협력 이준호, 김관식 장로(부총무, A팀) · 나근중 장로(총무, B팀). 팀원과 남자 교역자 배정, 승합차·교역자 차량 · 운전자 확보</td></tr>
+  <tr><td class="k">10 중순</td><td>연락처 확보 · 공문 발송</td><td>대상 교회 담당자 확인 후 협조 요청 공문 일괄 발송</td></tr>
+  <tr><td class="k">10 하순</td><td>사전 교육</td><td>두 팀 합동 설명회 1회. 체크리스트 사용법과 인터뷰 요령 공유</td></tr>
+  <tr><td class="k">10.31.(토)</td><td><b>1차 답사 — A팀</b></td><td>팀장 조이룰 장로 · 이준호, 김관식 장로(부총무) 협력 · 08:00 출발 · 산곡 → 새문안 → 소망 · 약 15:45 귀환</td></tr>
+  <tr><td class="k">11.7.(토)</td><td><b>2차 답사 — B팀</b></td><td>팀장 권정민 장로 · 나근중 장로(총무) 협력 · 남양 → 수원명성 → 용인제일 → 과천 · A팀 보고서 마감</td></tr>
+  <tr><td class="k">11.12.(목)</td><td>전 팀 보고서 마감</td><td>B팀 보고서 제출 완료. 위원장이 종합보고 자료 작성</td></tr>
+  <tr><td class="k">11.14.(토)</td><td><b>당회원 워크숍 보고</b></td><td>위원장이 두 팀 보고서를 종합하여 보고. 공통 시사점과 경향교회 적용 방향</td></tr>
+</table>
+
+<div class="box">
+  <div class="t">■ 계획서의 전제</div>
+  <ul>
+    <li>답사 대상 교회는 언론 보도로 확인된 건축·리모델링 실적을 근거로 선정했다. 실제 시설 수준과 답사 수용 여부는 확인되지 않았으므로, 협조가 어려운 교회가 생기면 대체 교회를 선정한다.</li>
+    <li>10.31. A팀 일정 확정(10.26.)에 따라 김포중앙교회는 이번 답사에서 제외하고, A팀은 산곡·새문안·소망 3곳을 답사한다.</li>
+    <li>경향교회는 고신(제신) 교단이나 대상 교회의 교단은 제각각이다. 총회 사무국에 최근 5년 내 건축 교회 명단을 문의하면 같은 교단 사례를 추가할 수 있다.</li>
+    <li>거리·소요시간은 지도 좌표 기반 개략 추정치이며 실측값이 아니다.</li>
+  </ul>
+</div>
+
+<div class="targets">
+  <div>대상 교회 7개소</div>
+  <div>산곡교회</div><div>새문안교회</div><div>소망교회</div><div>남양교회</div><div>수원명성교회</div><div>용인제일교회</div><div>과천교회</div>
+</div>
+
+<div class="footer"><span>교회 건축 벤치마킹 답사 계획서 · 경향교회 경향관 리모델링 위원회</span><span>작성 2026.09.16 · 수정 2026.10.26</span></div>
+
+<!-- 부록 -->
+<div class="page-break"></div>
+<h1>부록. 답사 대상 교회 연락처</h1>
+<div class="meta">교회 건축 벤치마킹 답사 계획서 · 경향교회 경향관 리모델링 위원회 · 2026.09.21 확인 (새문안교회 2026.10.15 추가 · A팀 당일 담당자 2026.10.26 추가)</div>
+
+<h2>A팀 당일 담당자 <small>10.31.(토) · 방문 순서</small></h2>
+<table class="ph">
+  <tr><th style="width:40px">순서</th><th style="width:95px">시간</th><th style="width:95px">교회</th><th style="width:100px">대표전화</th><th>당일 담당</th></tr>
+  <tr><td>①</td><td>08:40 ~ 09:40</td><td class="k">산곡교회</td><td><b>032-518-9191</b></td><td>유양기 장로 · <b>010-8737-0191</b></td></tr>
+  <tr><td>②</td><td>10:40 ~ 12:00</td><td class="k">새문안교회</td><td><b>02-732-1009</b></td><td>김행형 장로(당회 서기) · 담당자 조상호 처장</td></tr>
+  <tr><td>③</td><td>14:00 ~ 15:00</td><td class="k">소망교회</td><td><b>02-512-9191</b></td><td>지대형 장로<br><span class="sub">cf. 소망풍경 (본당 주차장 앞 경비실 옆 건물에 있는 카페)</span></td></tr>
+</table>
+
+<h2>대상 교회 연락처 <small>각 교회 홈페이지 공개 정보 기준</small></h2>
+<table class="ph">
+  <tr><th style="width:95px">대상 교회</th><th>주소</th><th style="width:95px">대표전화</th><th style="width:90px">팩스</th><th style="width:105px">홈페이지</th></tr>
+  <tr><td class="k">산곡교회</td><td>인천 부평구 부영로 199 (산곡동)</td><td><b>032-518-9191</b></td><td>032-519-0085</td><td>sangok.org</td></tr>
+  <tr><td class="k">새문안교회</td><td>서울 종로구 새문안로 79 (신문로1가)</td><td><b>02-732-1009</b></td><td>02-733-8070</td><td>saemoonan.org</td></tr>
+  <tr><td class="k">소망교회</td><td>서울 강남구 압구정로36길 55 (신사동)</td><td><b>02-512-9191</b></td><td>—</td><td>somang.net</td></tr>
+  <tr><td class="k">과천교회</td><td>경기 과천시 관악산길 103 (중앙동)</td><td><b>02-502-2357</b></td><td>02-502-3011</td><td>gcchurch.kr</td></tr>
+  <tr><td class="k">수원명성교회</td><td>경기 수원시 권선구 덕영대로 1292</td><td><b>031-235-5575</b></td><td>031-235-3508</td><td>swmsch.org</td></tr>
+  <tr><td class="k">남양교회</td><td>경기 화성시 남양읍 남양시장로25번길 11</td><td><b>031-356-1497</b></td><td>031-357-7999</td><td>nych1894.or.kr</td></tr>
+  <tr><td class="k">용인제일교회</td><td>경기 용인시 처인구 중부대로1262번길 68 (글로리센터)</td><td><b>031-321-6001</b></td><td>031-321-6005</td><td>jesuslove.or.kr</td></tr>
+  <tr class="dropped"><td class="k">김포중앙교회</td><td>경기 김포시 북변중로25번길 11-9 (북변동) · 10.26. 일정 확정으로 제외</td><td>031-983-1004</td><td>—</td><td>gpja.kr</td></tr>
+</table>
+<p class="note">※ A팀: 산곡·새문안·소망교회 / B팀: 과천·수원명성·남양·용인제일교회. 김포중앙교회는 10.31. 일정에서 제외되어 참고용으로만 남겨 둡니다. 용인제일교회는 대표전화 031-321-6001~4 중 대표번호만 기재했습니다. 새문안교회 정보는 교회 홈페이지 하단 기재 내용 기준(2026.10.15 확인)입니다.</p>
+
+<div class="footer"><span>교회 건축 벤치마킹 답사 계획서 · 부록</span><span>경향교회 경향관 리모델링 위원회</span></div>
+
+</body>
+</html>
