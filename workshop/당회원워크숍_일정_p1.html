@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>당회원 워크숍 일정</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 5mm 12.5mm 6mm; }
+  :root {
+    --ink: #222;
+    --muted: #8a8a8a;
+    --navy: #1d3d6b;
+    --band: #e8edf4;
+    --line: #c9d2de;
+    --gold: #f4b400;
+    --blue: #1f4f9a;
+    --pill: #dde8f6;
+    --soft: #f5f7fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font-family: "Noto Serif KR", serif;
+    font-size: 10.6pt;
+    line-height: 1.35;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .banner { width: 100%; display: block; border-radius: 8px; }
+  .head { display: flex; align-items: flex-end; justify-content: space-between; margin: 12px 0 0; padding-bottom: 6px; border-bottom: 2px solid var(--navy); }
+  .head h1 { margin: 0; font-size: 22pt; font-weight: 900; color: var(--navy); border-left: 6px solid var(--gold); padding-left: 16px; line-height: 1.1; }
+  .head .info { color: #555; font-size: 11.5pt; }
+  .head .info .sep { margin: 0 10px; color: #aaa; }
+  table { width: 100%; border-collapse: collapse; }
+  .sched { margin-top: 14px; border: 1px solid var(--line); }
+  .sched th { background: var(--navy); color: #fff; font-weight: 600; padding: 6px 6px; font-size: 11pt; border-right: 1px solid #3c5a85; }
+  .sched td { border: 1px solid var(--line); padding: 6px 8px; vertical-align: middle; }
+  .sched td.c { text-align: center; }
+  .sched td.dur { text-align: center; color: var(--muted); }
+  .sched td.t { white-space: nowrap; }
+  .sched tr.dim td.t { color: var(--muted); }
+  .sched tr.sec td { background: var(--band); color: var(--navy); font-weight: 600; padding: 4px 12px; }
+  .sched tr.sec td span { color: #555; font-weight: 400; }
+  .sched b { font-weight: 700; }
+  .s { display: block; color: var(--muted); font-size: 9.6pt; }
+  .wife { color: var(--blue); font-weight: 700; }
+  .pill { display: inline-block; background: var(--pill); color: var(--blue); border-radius: 999px; padding: 0 12px; font-size: 10pt; }
+  .pill.gold { background: #fdf0c8; color: #8a6300; }
+  .pill.gray { background: #e8e8e8; color: #666; }
+  .move { color: var(--muted); }
+  .card { border: 1px solid var(--line); border-radius: 6px; background: var(--soft); padding: 8px 18px 10px; margin-top: 12px; }
+  .label { display: inline-block; background: var(--navy); color: #fff; font-weight: 700; padding: 1px 10px; border-radius: 3px; margin-right: 6px; }
+  .card .cap { color: #666; }
+  .places td { padding: 3px 4px; border-bottom: 1px solid var(--line); }
+  .places td:first-child { color: var(--navy); font-weight: 700; width: 210px; }
+  .places td:last-child { text-align: right; white-space: nowrap; }
+  .budget { display: grid; grid-template-columns: 1.55fr 1fr; gap: 18px; margin-top: 8px; }
+  .exp th { background: var(--navy); color: #fff; font-weight: 600; padding: 3px 6px; }
+  .exp td { border: 1px solid var(--line); padding: 2px 8px; background: #fff; }
+  .exp td.n { text-align: right; }
+  .exp td.ct { text-align: center; }
+  .exp tr.tot td { background: var(--band); font-weight: 700; }
+  .exp tr.tot td.n { color: var(--navy); }
+  .inc { border-left: 4px solid var(--gold); background: #fff; padding: 6px 14px; }
+  .inc .h { color: var(--navy); font-weight: 700; margin-bottom: 4px; }
+  .inc .row { display: flex; justify-content: space-between; padding: 2px 0; }
+  .inc .row.tot { color: var(--navy); font-weight: 700; margin-top: 8px; }
+  .sign { text-align: right; color: #555; margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<img class="banner" src="banner.png" alt="경향교회 당회원 워크숍">
+
+<div class="head">
+  <h1>워크숍 일정</h1>
+  <div class="info">2026. 11. 14.(토)<span class="sep">|</span>경향교회 제3교육실<span class="sep">|</span>06:00 ~ 16:30</div>
+</div>
+
+<table class="sched">
+  <colgroup><col style="width:112px"><col style="width:136px"><col style="width:62px"><col><col style="width:102px"><col style="width:222px"></colgroup>
+  <tr><th>시간</th><th>장소</th><th>소요</th><th>내용</th><th>담당</th><th>비고</th></tr>
+
+  <tr class="sec"><td colspan="6">새벽 <span>· 특별 새벽기도 및 조식</span></td></tr>
+  <tr><td class="t">06:00 ~ 07:30</td><td class="c">트리니티 홀<span class="s">교회식당</span></td><td class="dur">90분</td><td><b>추수감사절 맞이 특별 새벽기도</b><span class="s">특송 : 당회원</span></td><td></td><td>여전도회연합회 – 조식 제공<span class="s">메뉴 : 시래기국</span></td></tr>
+  <tr class="dim"><td class="t">07:30 ~ 08:00</td><td></td><td class="dur">30분</td><td class="move">휴식 및 준비</td><td></td><td></td></tr>
+
+  <tr class="sec"><td colspan="6">오전 <span>· 당회원 워크숍</span></td></tr>
+  <tr><td class="t">08:00 ~ 08:40</td><td class="c" rowspan="2">제3교육실</td><td class="dur">40분</td><td><b>교회행정개편위원회 보고</b></td><td class="c">문흥식 장로</td><td><span class="pill">발표 &amp; QnA</span></td></tr>
+  <tr><td class="t">08:40 ~ 09:30</td><td class="dur">50분</td><td><b>경향관 리모델링 위원회 보고</b></td><td class="c">남성우 장로</td><td><span class="pill">발표 &amp; QnA</span></td></tr>
+  <tr><td class="t">09:30 ~ 10:00</td><td class="c">만나의 집</td><td class="dur">30분</td><td>티 타임 &amp; 단체 사진 촬영<span class="s">단체사진 : 당회원 부부 전체</span><span class="s">사진 촬영 : 미디어부 의뢰</span></td><td></td><td>만나의 집(사전 주문)<br>및 (앞) 기념사진 촬영</td></tr>
+  <tr><td class="t">10:00 ~ 11:30</td><td class="c" rowspan="2">제3교육실</td><td class="dur">90분</td><td><b>개혁주의란 무엇인가?</b></td><td class="c">담임목사님</td><td>다과 및 온수통 배치<br>(복도 앞 2곳)</td></tr>
+  <tr><td class="t">11:30 ~ 12:00</td><td class="dur">30분</td><td><b>당회원 부부 기도회</b></td><td class="c">담임목사님</td><td>아내분들 합류</td></tr>
+
+  <tr class="sec"><td colspan="6">오후 <span>· 부부 식사 및 성찬식 준비</span></td></tr>
+  <tr class="dim"><td class="t">12:00 ~ 12:30</td><td class="c">이동</td><td class="dur">30분</td><td class="move"><span class="pill gold">이동</span> 개별 · 자율 운영 및 카풀</td><td></td><td></td></tr>
+  <tr><td class="t">12:30 ~ 14:30</td><td class="c">한우만내고향축산<br>→ 팀별 티 타임<br>장소</td><td class="dur">120분</td><td><b>부부 식사 및 티 타임</b><span class="s">식사 기도 : 송기봉 장로</span><span class="s">좌석 : <b style="color:#444">장로님 · 아내분 블럭만 구분</b></span><span class="s">명찰 없음</span></td><td></td><td><b>티 타임 팀별</b> (부부 사전 주문)<br>배잔·배병팀 : 프레베리 서오릉 카페<br>배치팀 : 서오릉 이송당베이커리</td></tr>
+  <tr class="dim"><td class="t">14:30 ~ 15:00</td><td class="c">이동</td><td class="dur">30분</td><td class="move"><span class="pill gold">이동</span> 개별 · 자율 운영 및 카풀</td><td></td><td></td></tr>
+  <tr><td class="t">15:00 ~ 16:30</td><td class="c">제3교육실</td><td class="dur">90분</td><td><b>성찬식 준비</b></td><td></td><td>배병 및 배잔팀<span class="s">※ 석식 별도 없음(자율)</span></td></tr>
+</table>
+
+<div class="card">
+  <div style="margin-bottom:4px"><span class="label">★ 장소 안내</span><span class="cap">(12:30 ~ 14:30 부부 식사 및 티 타임)</span></div>
+  <table class="places">
+    <tr><td>한우만내고향축산</td><td>경기 고양시 덕양구 서오릉로 433</td><td>☎ 0507-1452-2775</td></tr>
+    <tr><td>프레베리 서오릉 카페</td><td>경기 고양시 덕양구 서오릉로 425</td><td>☎ 0507-1385-3933</td></tr>
+    <tr><td>서오릉 이송당베이커리</td><td>경기 고양시 덕양구 서오릉로 406-20 (1·2층)</td><td>☎ 02-356-7826</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <div><span class="label">★ 예산(안)</span><span class="cap">(단위 : 원)</span></div>
+  <div class="budget">
+    <table class="exp">
+      <tr><th>구분 (지출)</th><th>인원</th><th>단가</th><th>금액</th></tr>
+      <tr><td>중식대</td><td class="ct">60</td><td class="n">50,000</td><td class="n">3,000,000</td></tr>
+      <tr><td>티타임(중식 후)</td><td class="ct">60</td><td class="n">10,000</td><td class="n">600,000</td></tr>
+      <tr><td>만나의 집</td><td class="ct">60</td><td class="n">3,500</td><td class="n">210,000</td></tr>
+      <tr><td>간식(고급 사양)</td><td class="ct">60</td><td class="n">10,000</td><td class="n">600,000</td></tr>
+      <tr><td>예비비(사무비 등)</td><td></td><td></td><td class="n">290,000</td></tr>
+      <tr class="tot"><td colspan="3" class="ct">합 계</td><td class="n">4,700,000</td></tr>
+    </table>
+    <div class="inc">
+      <div class="h">수입</div>
+      <div class="row"><span>워크숍 특별회비</span><span>3,400,000</span></div>
+      <div class="row s"><span>(34명 × 100,000원)</span><span></span></div>
+      <div class="row"><span>당회비에서 지출</span><span>1,300,000</span></div>
+      <div class="row tot"><span>합 계</span><span>4,700,000</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="sign">경향교회 당회</div>
+
+</body>
+</html>
