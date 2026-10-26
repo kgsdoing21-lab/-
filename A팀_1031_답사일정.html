@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>A팀 10.31. 답사 일정</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 14mm 14mm; }
+  :root {
+    --ink: #222;
+    --muted: #666;
+    --navy: #3a2f5b;
+    --line: #d9d6e3;
+    --tint: #efedf8;
+    --note-bg: #f9eeee;
+    --note-line: #e7d3d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font-family: "Noto Serif KR", serif;
+    font-size: 10.5pt;
+    line-height: 1.55;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h1 { font-size: 22pt; color: var(--navy); margin: 0 0 6px; font-weight: 700; letter-spacing: -0.5px; }
+  .meta { color: var(--muted); font-size: 9.5pt; padding-bottom: 10px; border-bottom: 2px solid var(--navy); margin-bottom: 12px; }
+  .meta b { color: var(--ink); }
+  .meta .sep { margin: 0 6px; color: #aaa; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-bottom: 14px; }
+  .stat { background: var(--tint); border: 1px solid var(--line); padding: 8px 12px; }
+  .stat .k { font-size: 9pt; color: var(--muted); }
+  .stat .v { font-size: 14pt; font-weight: 700; color: var(--navy); line-height: 1.4; }
+  .stat .d { font-size: 9.5pt; line-height: 1.45; }
+  h2 { font-size: 13pt; font-weight: 700; margin: 14px 0 6px; padding-left: 10px; border-left: 5px solid var(--navy); }
+  h2 small { font-size: 9pt; font-weight: 400; color: var(--muted); margin-left: 8px; }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0 6px; }
+  th { background: var(--navy); color: #fff; font-weight: 400; text-align: left; padding: 4px 8px; font-size: 9.5pt; }
+  td { padding: 5px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  td.t { white-space: nowrap; width: 110px; }
+  tr.visit td { background: var(--tint); }
+  tr.visit td.t { font-weight: 700; color: var(--navy); }
+  .contact { display: block; font-size: 9pt; color: var(--muted); }
+  .sub { font-size: 9pt; color: var(--muted); }
+  .nw { white-space: nowrap; }
+  .note { font-size: 9pt; color: var(--muted); margin: 4px 0 10px; }
+  .box { background: var(--note-bg); border: 1px solid var(--note-line); padding: 8px 16px; margin: 10px 0; }
+  .box .t { font-weight: 700; color: var(--navy); margin-bottom: 2px; }
+  .box ul { margin: 2px 0 0; padding-left: 20px; }
+  .footer { display: flex; justify-content: space-between; font-size: 8.5pt; color: var(--muted); border-top: 1px solid var(--line); margin-top: 12px; padding-top: 6px; }
+</style>
+</head>
+<body>
+
+<h1>10.31.(토) A팀 답사 일정</h1>
+<div class="meta">
+  교회 건축 벤치마킹 답사<span class="sep">|</span>
+  주관 <b>경향교회 경향관 리모델링 위원회</b><span class="sep">|</span>
+  동선 <b>산곡 → 새문안 → 소망</b><span class="sep">|</span>
+  작성 <b>2026.10.26</b>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="k">팀장</div><div class="v">이준호 장로</div><div class="d">부총무 · <b>010-9249-5076</b></div></div>
+  <div class="stat"><div class="k">부팀장</div><div class="v">조이룰 장로</div><div class="d">부서기 · <b>010-9556-0769</b></div></div>
+  <div class="stat"><div class="k">이동</div><div class="v">교회 승합차</div><div class="d">부교역자 차량 병행 · 15명 (남자 교역자 포함)</div></div>
+</div>
+
+<h2>당일 일정</h2>
+<table>
+  <tr><th>시간</th><th>일정</th></tr>
+  <tr><td class="t">08:00 ~ 08:40</td><td>경향교회 출발 <span class="sub">(16km · 40분)</span></td></tr>
+  <tr class="visit"><td class="t">08:40 ~ 09:40</td><td><b>① 산곡교회 투어</b><span class="contact">담당 유양기 장로 010-8737-0191 · 교회 032-518-9191</span></td></tr>
+  <tr><td class="t">09:40 ~ 10:40</td><td>이동 <span class="sub">(28km · 1시간)</span></td></tr>
+  <tr class="visit"><td class="t">10:40 ~ 12:00</td><td><b>② 새문안교회 투어</b><span class="contact">당일 담당 김행형 장로(당회 서기) · 담당자 조상호 처장 · 교회 02-732-1009</span></td></tr>
+  <tr><td class="t">12:00 ~ 12:30</td><td>이동 <span class="sub">(10km · 30분)</span></td></tr>
+  <tr><td class="t">12:30 ~ 13:50</td><td><b>점심식사</b> · 오전 정리<span class="contact">고봉삼계탕 광화문점 (새문안교회 인근) · 02-733-2235 · 메뉴 한방삼계탕 등</span></td></tr>
+  <tr><td class="t">13:50 ~ 14:00</td><td>이동</td></tr>
+  <tr class="visit"><td class="t">14:00 ~ 15:00</td><td><b>③ 소망교회 투어</b><span class="contact">당일 담당 지대형 장로 · 교회 02-512-9191<br>cf. 소망풍경 (본당 주차장 앞 경비실 옆 건물에 있는 카페)</span></td></tr>
+  <tr><td class="t">약 15:45</td><td>경향교회 귀환 <span class="sub">(추정)</span></td></tr>
+</table>
+<p class="note">앞 교회에서 늦어지면 팀장이 다음 교회 담당자에게 바로 연락합니다. 귀환 시각은 소망교회 → 경향교회 45분 기준 추정치입니다.</p>
+
+<h2>연락처 <small>방문 순서</small></h2>
+<table>
+  <tr><th>구분</th><th>성명 · 직분</th><th>연락처</th><th>비고</th></tr>
+  <tr><td>팀장</td><td>이준호 장로 (부총무)</td><td class="nw"><b>010-9249-5076</b></td><td></td></tr>
+  <tr><td>부팀장</td><td>조이룰 장로 (부서기)</td><td class="nw"><b>010-9556-0769</b></td><td></td></tr>
+  <tr><td>① 산곡교회</td><td>유양기 장로</td><td class="nw"><b>010-8737-0191</b></td><td>교회 032-518-9191</td></tr>
+  <tr><td>② 새문안교회</td><td>김행형 장로 (당회 서기)<br>조상호 처장 (담당자)</td><td class="nw"><b>02-732-1009</b></td><td>교회 대표전화</td></tr>
+  <tr><td>점심</td><td>고봉삼계탕 광화문점</td><td class="nw"><b>02-733-2235</b></td><td>한방삼계탕 등</td></tr>
+  <tr><td>③ 소망교회</td><td>지대형 장로</td><td class="nw"><b>02-512-9191</b></td><td>교회 대표전화 · 소망풍경 카페</td></tr>
+</table>
+
+<div class="box">
+  <div class="t">■ 준비물 · 유의사항</div>
+  <ul>
+    <li><b>준비물</b> — 공문 사본, 체크리스트, 카메라, 줄자, 명함, 감사 다과(교회당 5만원 내외)</li>
+    <li><b>역할 분담</b> — 기록 · 촬영 · 질문 · 실측 담당을 출발 전에 정한다</li>
+    <li><b>인터뷰 우선</b> — "다시 짓는다면 바꾸고 싶은 점"(체크리스트 F)은 시간이 부족해도 끝까지 묻는다</li>
+    <li><b>촬영은 사전 동의 후</b>, 사람이 나오는 사진은 찍지 않는다. 현장에서 비교·평가하는 말은 삼간다</li>
+    <li><b>귀환 즉시</b> 팀장이 위원회 단톡방에 도착 보고 · 답사보고서는 11.7.(토)까지 제출</li>
+  </ul>
+</div>
+
+<div class="footer"><span>교회 건축 벤치마킹 답사 · A팀 10.31.(토)</span><span>경향교회 경향관 리모델링 위원회</span></div>
+
+</body>
+</html>
