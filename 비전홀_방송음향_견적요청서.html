@@ -51,6 +51,9 @@
   .card ul { list-style: none; }
   .card li { position: relative; padding-left: 3mm; font-size: 8.9pt; }
   .card li::before { content: ""; position: absolute; left: .3mm; top: 2.1mm; width: 1.2mm; height: 1.2mm; border-radius: 50%; background: var(--gold); }
+  .card.wide { grid-column: 1 / -1; }
+  .card.wide ul { display: grid; grid-template-columns: 1fr 1fr; column-gap: 6mm; }
+  .card .ref { color: var(--muted); font-size: 8pt; }
   .card.key { border-top-color: var(--navy); background: #fafbfe; }
 
   ol.req { list-style: none; counter-reset: r; display: grid; grid-template-columns: 1fr 1fr; column-gap: 6mm; row-gap: .6mm; }
@@ -70,16 +73,16 @@
 <body>
   <header>
     <div class="org">대한예수교장로회 경향교회</div>
-    <h1>비전홀(B1) 리모델링 방송·음향 설비 견적 요청</h1>
-    <div class="subtitle">다목적홀 음향 · 영상 · 방송 송출 · 동시통역 시스템</div>
+    <h1>비전홀(B1) 리모델링 방송·음향·조명 설비 견적 요청</h1>
+    <div class="subtitle">다목적홀 음향 · 영상 · 방송 송출 · 무대 조명 · 동시통역 시스템</div>
     <div class="date">2026. 11. 19.</div>
   </header>
 
-  <p class="intro">우리 교회는 비전홀(B1) 리모델링 공사를 추진하고 있습니다. 공사와 연계하여 방송·음향 설비를 새로 구축하고자 아래와 같이 견적을 요청드리오니, 검토 후 제안 견적을 보내주시기 바랍니다.</p>
+  <p class="intro">우리 교회는 비전홀(B1) 리모델링 공사를 추진하고 있습니다. 공사와 연계하여 방송·음향·조명 설비를 새로 구축하고자 아래와 같이 견적을 요청드리오니, 검토 후 제안 견적을 보내주시기 바랍니다.</p>
 
   <h2><span class="no">1</span>사업 개요</h2>
   <table class="overview">
-    <tr><th>사업명</th><td>경향교회 비전홀(B1) 리모델링 공사 중 방송·음향 설비</td></tr>
+    <tr><th>사업명</th><td>경향교회 비전홀(B1) 리모델링 공사 중 방송·음향·조명 설비</td></tr>
     <tr><th>위치·규모</th><td>서울특별시 강서구 화곡로 375, 지하 1층 비전홀 · 면적 865㎡(262평) <span style="color:var(--muted)">※ 도면 첨부</span></td></tr>
     <tr><th>용도</th><td>다목적홀 — 경복여고·경복비즈고 설명회, 교회 예배 및 세미나, 예식 등 행사</td></tr>
     <tr><th>공사 기간</th><td>2027년 1월 ~ 7월 (철거 포함, 7월 준공 목표) — 설비 설치·시운전은 공정에 맞춰 협의</td></tr>
@@ -105,6 +108,15 @@
         <li>로비·대기실 등 영상·음향 분배</li>
       </ul>
     </div>
+    <div class="card">
+      <h3>무대 조명 <small>Stage Lighting</small></h3>
+      <ul>
+        <li>무대 조명기구(LED 스포트·워시 등), 객석 조명 연동</li>
+        <li>조명 콘솔(DMX), 분배기, 배턴·트러스 등 설치 구조물</li>
+        <li>용도별(예배·설명회·예식) 조명 장면 설정</li>
+        <li>캣워크(단면도 참조)를 활용한 설치 위치 검토</li>
+      </ul>
+    </div>
     <div class="card key">
       <h3>동시통역 <small>Interpretation</small></h3>
       <ul>
@@ -113,7 +125,7 @@
         <li>음향 시스템과의 연동, 다국어 채널 운용</li>
       </ul>
     </div>
-    <div class="card">
+    <div class="card wide">
       <h3>조정실·배관배선 <small>Control &amp; Infra</small></h3>
       <ul>
         <li>조정실(콘솔룸) 구성, 장비 랙, 전원·접지 계획</li>
