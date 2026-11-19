@@ -47,6 +47,7 @@
   .item.ref { color: var(--muted); }
   .item.ref .tag { color: var(--gold); }
   .item.hot { color: var(--red); font-weight: 800; }
+  .item .sub-line { display: block; font-size: 12.5pt; margin-top: 2mm; padding-left: 1mm; }
   .item.hot .place { color: var(--red); opacity: .75; font-weight: 700; }
   .item.hot::before { background: var(--red); border-color: var(--red); width: 4.2mm; height: 4.2mm; left: -10mm; top: 1.6mm; }
   .item.key { color: var(--blue); }
@@ -73,7 +74,10 @@
 
     <section class="timeline">
       <div class="month">11월</div>
-      <div class="item hot">11.22 주일 오후 1시 국·팀별 상세 업무 작성 <em class="place">(장소 : 당회실)</em></div>
+      <div class="item hot">11.22 주일 오후 1시 국·팀별 상세 업무 작성 <em class="place">(장소 : 당회실)</em>
+        <span class="sub-line">· 국별 국장 및 팀장, 담당 목사</span>
+        <span class="sub-line">· 담임목사님께 인사 확정 의뢰 <em class="place">(~11.29)</em></span>
+      </div>
       <div class="item key">11.29 주일 정기당회 후 모임 : 교역자 및 직원 업무 매뉴얼 검토</div>
     </section>
 
