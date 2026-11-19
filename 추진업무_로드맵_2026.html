@@ -15,6 +15,7 @@
     --ink: #2b2620;
     --muted: #a08a6a;
     --blue: #2f55b8;
+    --red: #c62828;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: #fff; }
@@ -45,6 +46,9 @@
   .item .place { font-style: normal; font-size: 11.5pt; color: var(--muted); }
   .item.ref { color: var(--muted); }
   .item.ref .tag { color: var(--gold); }
+  .item.hot { color: var(--red); font-weight: 800; }
+  .item.hot .place { color: var(--red); opacity: .75; font-weight: 700; }
+  .item.hot::before { background: var(--red); border-color: var(--red); width: 4.2mm; height: 4.2mm; left: -10mm; top: 1.6mm; }
   .item.key { color: var(--blue); }
   .item.key::before { background: var(--blue); border-color: var(--blue); width: 4.2mm; height: 4.2mm; left: -10mm; top: 1.6mm; }
 
@@ -69,7 +73,7 @@
 
     <section class="timeline">
       <div class="month">11월</div>
-      <div class="item">11.22 주일 오후 1시 국·팀별 상세 업무 작성 <em class="place">(장소 : 당회실)</em></div>
+      <div class="item hot">11.22 주일 오후 1시 국·팀별 상세 업무 작성 <em class="place">(장소 : 당회실)</em></div>
       <div class="item key">11.29 주일 정기당회 후 모임 : 교역자 및 직원 업무 매뉴얼 검토</div>
     </section>
 
