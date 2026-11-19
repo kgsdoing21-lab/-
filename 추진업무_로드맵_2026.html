@@ -32,11 +32,12 @@
   .period { text-align: center; color: var(--gold); font-size: 11pt; letter-spacing: .4em; padding-left: .4em; margin-top: 5mm; }
   .diamond { text-align: center; color: var(--gold); font-size: 9pt; margin-top: 4mm; }
 
-  .timeline { position: relative; margin-top: 16mm; padding-left: 10mm; }
+  .timeline { position: relative; margin-top: 11mm; padding-left: 10mm; }
   .timeline::before { content: ""; position: absolute; left: 2.1mm; top: 3mm; bottom: 4mm; width: 1.2px; background: var(--gold-soft); }
-  .month { position: relative; font-size: 19pt; font-weight: 700; margin-bottom: 12mm; }
+  .month { position: relative; font-size: 19pt; font-weight: 700; margin-bottom: 7mm; }
   .month::before { content: ""; position: absolute; left: -10mm; top: 50%; transform: translateY(-50%); width: 4.4mm; height: 4.4mm; border-radius: 50%; background: var(--gold); }
-  .item { position: relative; font-size: 14pt; font-weight: 700; line-height: 1.55; margin-bottom: 12mm; }
+  .month.m2 { margin-top: 2mm; }
+  .item { position: relative; font-size: 14pt; font-weight: 700; line-height: 1.55; margin-bottom: 8mm; }
   .item::before { content: ""; position: absolute; left: -9.45mm; top: 2.1mm; width: 3.1mm; height: 3.1mm; border-radius: 50%; background: var(--paper); border: 1.2px solid var(--gold); }
   .item .detail { display: block; }
   .item .slot { display: grid; grid-template-columns: 19mm 1fr; margin-top: 1.2mm; font-size: 11.5pt; }
@@ -47,16 +48,16 @@
   .item.ref { color: var(--muted); }
   .item.ref .tag { color: var(--gold); }
   .item.hot { color: var(--red); font-weight: 800; }
-  .item .sub-line { display: block; font-size: 12.5pt; margin-top: 2mm; padding-left: 1mm; }
+  .item .sub-line { display: block; font-size: 12.5pt; margin-top: 1.2mm; padding-left: 1mm; }
   .item.hot .place { color: var(--red); opacity: .75; font-weight: 700; }
   .item.hot::before { background: var(--red); border-color: var(--red); width: 4.2mm; height: 4.2mm; left: -10mm; top: 1.6mm; }
   .item.key { color: var(--blue); }
   .item.key::before { background: var(--blue); border-color: var(--blue); width: 4.2mm; height: 4.2mm; left: -10mm; top: 1.6mm; }
 
-  .box { margin-top: 8mm; border: 1.2px solid var(--gold-soft); border-radius: 2.5mm; padding: 8mm 8mm 5mm; background: #fffaf0; }
-  .box h2 { color: var(--gold); font-size: 14.5pt; font-weight: 800; margin-bottom: 6mm; }
+  .box { margin-top: 5mm; border: 1.2px solid var(--gold-soft); border-radius: 2.5mm; padding: 6.5mm 8mm 4mm; background: #fffaf0; }
+  .box h2 { color: var(--gold); font-size: 14.5pt; font-weight: 800; margin-bottom: 4.5mm; }
   .box h2::before { content: "◆"; font-size: 9pt; margin-right: 2.5mm; vertical-align: 1px; }
-  .step { display: grid; grid-template-columns: 50mm 1fr; border-top: 1px dashed var(--gold-soft); padding: 5.5mm 1mm; }
+  .step { display: grid; grid-template-columns: 50mm 1fr; border-top: 1px dashed var(--gold-soft); padding: 4mm 1mm; }
   .step b { color: var(--gold); font-size: 13.5pt; }
   .step small { display: block; color: var(--muted); font-size: 10pt; margin-top: 1.5mm; }
   .step span { font-size: 13.5pt; }
@@ -79,6 +80,8 @@
         <span class="sub-line">· 담임목사님께 인사 확정 의뢰 <em class="place">(~11.29)</em></span>
       </div>
       <div class="item key">11.29 주일 정기당회 후 모임 : 교역자 및 직원 업무 매뉴얼 검토</div>
+      <div class="month m2">12월</div>
+      <div class="item">12.12 토 국장 및 담당 목사 워크숍</div>
     </section>
 
     <section class="box">
