@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>비전홀 방송·음향 견적 요청</title>
+<link rel="stylesheet" href="font/nm/package/700.css">
+<link rel="stylesheet" href="font/nm/package/800.css">
+<link rel="stylesheet" href="font/ns/package/400.css">
+<link rel="stylesheet" href="font/ns/package/500.css">
+<link rel="stylesheet" href="font/ns/package/700.css">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root {
+    --navy: #1d2b4f;
+    --navy-soft: #e8ecf5;
+    --gold: #b8893f;
+    --gold-soft: #ead9b8;
+    --ink: #262a33;
+    --muted: #6b7180;
+    --line: #d9dde6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #fff; }
+  body {
+    width: 210mm; height: 297mm; padding: 12mm 14mm 10mm;
+    font-family: "Noto Sans KR", sans-serif; color: var(--ink);
+    font-size: 9.4pt; line-height: 1.5; word-break: keep-all;
+    display: flex; flex-direction: column;
+  }
+
+  header { border-bottom: 2px solid var(--navy); padding-bottom: 4mm; position: relative; }
+  .org { color: var(--gold); font-weight: 700; font-size: 9pt; letter-spacing: .3em; }
+  h1 { font-family: "Nanum Myeongjo", serif; font-weight: 800; font-size: 21pt; color: var(--navy); margin-top: 1.5mm; letter-spacing: -.01em; }
+  .subtitle { color: var(--muted); font-size: 10pt; margin-top: 1mm; }
+  .date { position: absolute; right: 0; bottom: 4mm; color: var(--muted); font-size: 9pt; }
+
+  .intro { margin-top: 4mm; font-size: 9.6pt; }
+
+  h2 { display: flex; align-items: center; gap: 2mm; font-size: 11pt; font-weight: 700; color: var(--navy); margin: 4.5mm 0 2mm; }
+  h2 .no { display: inline-flex; align-items: center; justify-content: center; width: 5.6mm; height: 5.6mm; border-radius: 1mm; background: var(--navy); color: #fff; font-size: 8.5pt; }
+
+  table.overview { width: 100%; border-collapse: collapse; }
+  .overview th, .overview td { border-top: 1px solid var(--line); padding: 1.6mm 2.5mm; text-align: left; vertical-align: top; }
+  .overview tr:last-child th, .overview tr:last-child td { border-bottom: 1px solid var(--line); }
+  .overview th { width: 26mm; background: var(--navy-soft); color: var(--navy); font-weight: 500; }
+
+  .scope { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5mm; }
+  .card { border: 1px solid var(--line); border-top: 2.5px solid var(--gold); border-radius: 1.2mm; padding: 2.4mm 3mm 2.2mm; }
+  .card h3 { font-size: 10pt; font-weight: 700; color: var(--navy); margin-bottom: 1mm; }
+  .card h3 small { font-weight: 400; color: var(--gold); font-size: 8.5pt; margin-left: 1mm; }
+  .card ul { list-style: none; }
+  .card li { position: relative; padding-left: 3mm; font-size: 8.9pt; }
+  .card li::before { content: ""; position: absolute; left: .3mm; top: 2.1mm; width: 1.2mm; height: 1.2mm; border-radius: 50%; background: var(--gold); }
+  .card.key { border-top-color: var(--navy); background: #fafbfe; }
+
+  ol.req { list-style: none; counter-reset: r; display: grid; grid-template-columns: 1fr 1fr; column-gap: 6mm; row-gap: .6mm; }
+  ol.req li { counter-increment: r; position: relative; padding-left: 5mm; font-size: 9pt; }
+  ol.req li::before { content: counter(r); position: absolute; left: 0; top: .5mm; width: 3.6mm; height: 3.6mm; border-radius: 50%; border: 1px solid var(--gold); color: var(--gold); font-size: 7pt; line-height: 3.4mm; text-align: center; }
+
+  .submit { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: 1.2mm; overflow: hidden; }
+  .submit div { padding: 2.2mm 3mm; border-right: 1px solid var(--line); }
+  .submit div:last-child { border-right: 0; }
+  .submit b { display: block; color: var(--navy); font-size: 8.5pt; font-weight: 500; margin-bottom: .6mm; }
+  .blank { display: inline-block; min-width: 30mm; border-bottom: 1px solid var(--muted); }
+
+  footer { margin-top: auto; padding-top: 3mm; border-top: 1px solid var(--gold-soft); display: flex; justify-content: space-between; align-items: flex-end; font-size: 8.6pt; color: var(--muted); }
+  footer .sign { font-family: "Nanum Myeongjo", serif; font-weight: 800; font-size: 13pt; color: var(--navy); letter-spacing: .15em; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="org">대한예수교장로회 경향교회</div>
+    <h1>비전홀(B2) 리모델링 방송·음향 설비 견적 요청</h1>
+    <div class="subtitle">다목적홀 음향 · 영상 · 방송 송출 · 동시통역 시스템</div>
+    <div class="date">2026. 11. 19.</div>
+  </header>
+
+  <p class="intro">우리 교회는 비전홀(B2) 리모델링 공사를 추진하고 있습니다. 공사와 연계하여 방송·음향 설비를 새로 구축하고자 아래와 같이 견적을 요청드리오니, 검토 후 제안 견적을 보내주시기 바랍니다.</p>
+
+  <h2><span class="no">1</span>사업 개요</h2>
+  <table class="overview">
+    <tr><th>사업명</th><td>경향교회 비전홀(B2) 리모델링 공사 중 방송·음향 설비</td></tr>
+    <tr><th>위치·규모</th><td>서울특별시 강서구 화곡로 375, 지하 2층 비전홀 · 면적 865㎡(262평) <span style="color:var(--muted)">※ 도면 첨부</span></td></tr>
+    <tr><th>용도</th><td>다목적홀 — 경복여고·경복비즈고 설명회, 교회 예배 및 세미나, 예식 등 행사</td></tr>
+    <tr><th>공사 기간</th><td>2027년 1월 ~ 7월 (철거 포함, 7월 준공 목표) — 설비 설치·시운전은 공정에 맞춰 협의</td></tr>
+  </table>
+
+  <h2><span class="no">2</span>견적 범위</h2>
+  <div class="scope">
+    <div class="card">
+      <h3>음향 <small>Sound</small></h3>
+      <ul>
+        <li>메인·서브우퍼·보조(딜레이/필) 스피커, 무대 모니터</li>
+        <li>디지털 믹싱 콘솔, 스피커 프로세서(DSP), 파워앰프</li>
+        <li>유·무선 마이크 및 스탠드, 강단·무대 입출력 박스</li>
+        <li>음향 시뮬레이션, 설치 후 측정·튜닝</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>영상·방송 <small>Video &amp; Broadcast</small></h3>
+      <ul>
+        <li>주 화면(LED 또는 프로젝터·스크린), 보조 모니터</li>
+        <li>방송용 카메라(PTZ 등), 영상 스위처, 자막·프레젠테이션</li>
+        <li>녹화 및 온라인 실시간 송출(유튜브 등) 장비</li>
+        <li>로비·대기실 등 영상·음향 분배</li>
+      </ul>
+    </div>
+    <div class="card key">
+      <h3>동시통역 <small>Interpretation</small></h3>
+      <ul>
+        <li>통역 부스(또는 통역석) 및 통역 콘솔</li>
+        <li>송신기·수신기·헤드셋 — 수신기 수량별 단가 제시</li>
+        <li>음향 시스템과의 연동, 다국어 채널 운용</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>조정실·배관배선 <small>Control &amp; Infra</small></h3>
+      <ul>
+        <li>조정실(콘솔룸) 구성, 장비 랙, 전원·접지 계획</li>
+        <li>신호 배관·배선 및 인테리어 공정과의 협의 사항</li>
+        <li>설치, 시운전, 운영자 교육, 하자보수</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2><span class="no">3</span>견적서에 포함할 내용</h2>
+  <ol class="req">
+    <li>공종별 견적 내역서(장비비·설치비·제경비 구분)</li>
+    <li>장비 목록(제조사·모델·수량·단가)</li>
+    <li>시스템 구성도 및 장비 배치(안)</li>
+    <li>표준형·고급형 등 대안이 있으면 함께 제시</li>
+    <li>설치 일정(공사 일정 연계) 및 시운전 계획</li>
+    <li>하자보증 기간, 유지보수 조건, 교육 계획</li>
+    <li>회사 소개 및 유사 시공 실적(교회·강당 등)</li>
+    <li>견적 유효기간 및 부가세 포함 여부</li>
+  </ol>
+
+  <h2><span class="no">4</span>제출 안내</h2>
+  <div class="submit">
+    <div><b>제출 기한</b>2026. <span class="blank"></span>까지</div>
+    <div><b>제출 방법</b>전자우편 doing21@naver.com<br>(PDF 및 엑셀 내역서)</div>
+    <div><b>현장 확인</b>사전 일정 협의 후<br>현장 안내 및 도면 제공</div>
+  </div>
+
+  <footer>
+    <div>문의 : 경향관 리모델링 위원회 총무 나근중 장로<br>전화 010-3322-6817 · 전자우편 doing21@naver.com<br>붙임 : 비전홀 도면 1부</div>
+    <div class="sign">경향교회</div>
+  </footer>
+</body>
+</html>
